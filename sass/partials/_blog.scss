@@ -1,0 +1,117 @@
+@import "./variables";
+@import "./inicio";
+@import "./galeria";
+
+body {
+  main {
+    .card-title1 {
+      font-size: 1.5rem;
+      text-align: center;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    .img-fondoBody {
+      @extend .imagenFondo;
+      background-image: url("../../img/RoxanayGeral/RyG\ \(124\)H.jpg");
+      height: 100vh;
+      .fuente3 {
+        color: white;
+        text-shadow: 2px 2px 5px rgba(12, 2, 2, 0.925);
+      }
+    }
+
+    .blog {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 3rem;
+      .card-blog {
+        width: 30rem;
+        height: auto;
+        .card-style {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          border-radius: 10rem;
+          padding: 1rem;
+          margin-bottom: 1rem;
+          width: auto;
+          height: 30rem;
+          .img-cardStyle {
+            width: 20rem;
+            height: auto;
+            border-radius: 1rem;
+          }
+          .card-body {
+            .card-title1 {
+              font-family: $Dancing;
+            }
+            .card-text {
+              font-family: $Playfair;
+            }
+            .btn-blog {
+              margin-left: 15rem;
+              background-color: white;
+              color: black;
+              text-decoration: none;
+              font-family: $Dancing;
+              padding: 0.2rem 1rem;
+              font-size: 1.5rem;
+              border: solid 1px black;
+              border-radius: 15px;
+              &:hover {
+                background-color: black;
+                color: white;
+              }
+            }
+          }
+        }
+
+        .img-cardStyle {
+          width: 20rem;
+          height: auto;
+        }
+        .card-text {
+          font-size: $Playfair;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $tablet) {
+  body {
+    main {
+      .blog {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 3rem;
+        .card-blog {
+          width: 100%;
+          .card-style {
+            width: 100%;
+            padding: 1rem;
+            .img-cardStyle {
+              width: 15rem;
+            }
+            .card-body {
+              width: 100%;
+              font-size: 1rem;
+              .card-text {
+                padding: 1rem;
+                text-align: justify;
+                font-size: 0.8rem;
+              }
+              .btn-blog {
+                margin-left: 0rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

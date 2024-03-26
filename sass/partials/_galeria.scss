@@ -1,0 +1,232 @@
+@import "./variables";
+@import "./inicio";
+
+body {
+  .imagenFondo-galeria {
+    margin: 0;
+    padding: 0;
+    background-image: url("../../img/footer1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #333;
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: Center;
+    align-items: center;
+    .fuente2 {
+      color: white;
+      text-shadow: 2px 2px 5px rgba(12, 2, 2, 0.925);
+    }
+  }
+  .galeria {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    .image {
+      cursor: pointer;
+    }
+    .imageh {
+      cursor: pointer;
+    }
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    overflow: hidden;
+
+    .modal-content {
+      max-width: 25rem;
+      max-height: auto;
+      display: block;
+      margin: auto;
+      top: 0.5rem;
+    }
+
+    .close-modal {
+      position: absolute;
+      top: 0.5rem;
+      right: 22rem;
+      font-size: 2.5rem;
+      cursor: pointer;
+      color: white;
+    }
+  }
+  .modalh {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    overflow: hidden;
+
+    .modal-contenth {
+      max-width: 50rem;
+      max-height: auto;
+      top: 2rem;
+      text-align: center;
+      display: block;
+      position: relative;
+      padding: 0.5rem;
+      border-radius: 1rem;
+      margin: auto;
+    }
+
+    .close-modalh {
+      position: absolute;
+      top: 1.5rem;
+      right: 10rem;
+      font-size: 2.5rem;
+      cursor: pointer;
+      color: white;
+    }
+  }
+}
+
+@media (max-width: $tablet) {
+  body {
+    .imagenFondo-galeria {
+      background-position: center;
+    }
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      z-index: 1;
+      overflow: hidden;
+
+      .modal-content {
+        max-width: 80%;
+        max-height: auto;
+        display: block;
+        margin: auto;
+        top: 15rem;
+      }
+
+      .close-modal {
+        position: absolute;
+        top: 11rem;
+        right: 1rem;
+        font-size: 2.5rem;
+        cursor: pointer;
+        color: white;
+      }
+    }
+    .modalh {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      z-index: 1;
+      overflow: hidden;
+
+      .modal-contenth {
+        max-width: 20rem;
+        max-height: auto;
+        top: 10rem;
+        text-align: center;
+        display: block;
+        position: relative;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        margin: auto;
+      }
+
+      .close-modalh {
+        position: absolute;
+        top: 6rem;
+        right: 1rem;
+        font-size: 2.5rem;
+        cursor: pointer;
+        color: white;
+      }
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  body {
+    .imagenFondo-galeria {
+      background-position: center;
+    }
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      z-index: 1;
+      overflow: hidden;
+
+      .modal-content {
+        max-width: 80%;
+        max-height: auto;
+        display: block;
+        margin: auto;
+        top: 15rem;
+      }
+
+      .close-modal {
+        position: absolute;
+        top: 11rem;
+        right: 1rem;
+        font-size: 2.5rem;
+        cursor: pointer;
+        color: white;
+      }
+    }
+    .modalh {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      z-index: 1;
+      overflow: hidden;
+
+      .modal-contenth {
+        max-width: 40rem;
+        max-height: auto;
+        top: 1rem;
+        text-align: center;
+        display: block;
+        position: relative;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        margin: auto;
+      }
+
+      .close-modalh {
+        position: absolute;
+        top: 6rem;
+        right: 1rem;
+        font-size: 2.5rem;
+        cursor: pointer;
+        color: white;
+      }
+    }
+  }
+}
