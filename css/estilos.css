@@ -93,11 +93,12 @@ body main .carrusel .img-index {
   height: auto;
 }
 body main .carrusel .logo {
+  width: 150px;
+  height: 115px;
+  background-size: cover;
   position: fixed;
-  width: 250px;
-  height: 200px;
-  right: 60rem;
-  top: 7rem;
+  bottom: 10px;
+  right: 10px;
 }
 body main .interiorInicio {
   display: flex;
@@ -109,7 +110,7 @@ body main .interiorInicio .img-carrusel {
   width: 15rem;
   height: auto;
   margin-left: 2rem;
-  border-radius: 1rem;
+  border-radius: 15px;
   transition: transform 0.3s ease;
 }
 body main .interiorInicio .img-carrusel:hover {
@@ -215,6 +216,22 @@ body footer .p-footer {
 }
 
 @media (max-width: 990px) {
+  body main .carrusel {
+    display: flex;
+    justify-content: center;
+  }
+  body main .carrusel .img-index {
+    width: 100%;
+    height: auto;
+  }
+  body main .carrusel .logo {
+    width: 115px;
+    height: 90px;
+    background-size: cover;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
   body main .interiorInicio {
     display: flex;
     flex-direction: column;
@@ -316,11 +333,12 @@ body main .carrusel .img-index {
   height: auto;
 }
 body main .carrusel .logo {
+  width: 150px;
+  height: 115px;
+  background-size: cover;
   position: fixed;
-  width: 250px;
-  height: 200px;
-  right: 60rem;
-  top: 7rem;
+  bottom: 10px;
+  right: 10px;
 }
 body main .interiorInicio {
   display: flex;
@@ -332,7 +350,7 @@ body main .interiorInicio .img-carrusel {
   width: 15rem;
   height: auto;
   margin-left: 2rem;
-  border-radius: 1rem;
+  border-radius: 15px;
   transition: transform 0.3s ease;
 }
 body main .interiorInicio .img-carrusel:hover {
@@ -438,6 +456,22 @@ body footer .p-footer {
 }
 
 @media (max-width: 990px) {
+  body main .carrusel {
+    display: flex;
+    justify-content: center;
+  }
+  body main .carrusel .img-index {
+    width: 100%;
+    height: auto;
+  }
+  body main .carrusel .logo {
+    width: 115px;
+    height: 90px;
+    background-size: cover;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
   body main .interiorInicio {
     display: flex;
     flex-direction: column;
@@ -539,11 +573,12 @@ body main .carrusel .img-index {
   height: auto;
 }
 body main .carrusel .logo {
+  width: 150px;
+  height: 115px;
+  background-size: cover;
   position: fixed;
-  width: 250px;
-  height: 200px;
-  right: 60rem;
-  top: 7rem;
+  bottom: 10px;
+  right: 10px;
 }
 body main .interiorInicio {
   display: flex;
@@ -555,7 +590,7 @@ body main .interiorInicio .img-carrusel {
   width: 15rem;
   height: auto;
   margin-left: 2rem;
-  border-radius: 1rem;
+  border-radius: 15px;
   transition: transform 0.3s ease;
 }
 body main .interiorInicio .img-carrusel:hover {
@@ -661,6 +696,22 @@ body footer .p-footer {
 }
 
 @media (max-width: 990px) {
+  body main .carrusel {
+    display: flex;
+    justify-content: center;
+  }
+  body main .carrusel .img-index {
+    width: 100%;
+    height: auto;
+  }
+  body main .carrusel .logo {
+    width: 115px;
+    height: 90px;
+    background-size: cover;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
   body main .interiorInicio {
     display: flex;
     flex-direction: column;
@@ -1072,11 +1123,12 @@ body main .carrusel .img-index {
   height: auto;
 }
 body main .carrusel .logo {
+  width: 150px;
+  height: 115px;
+  background-size: cover;
   position: fixed;
-  width: 250px;
-  height: 200px;
-  right: 60rem;
-  top: 7rem;
+  bottom: 10px;
+  right: 10px;
 }
 body main .interiorInicio {
   display: flex;
@@ -1088,7 +1140,7 @@ body main .interiorInicio .img-carrusel {
   width: 15rem;
   height: auto;
   margin-left: 2rem;
-  border-radius: 1rem;
+  border-radius: 15px;
   transition: transform 0.3s ease;
 }
 body main .interiorInicio .img-carrusel:hover {
@@ -1194,6 +1246,22 @@ body footer .p-footer {
 }
 
 @media (max-width: 990px) {
+  body main .carrusel {
+    display: flex;
+    justify-content: center;
+  }
+  body main .carrusel .img-index {
+    width: 100%;
+    height: auto;
+  }
+  body main .carrusel .logo {
+    width: 115px;
+    height: 90px;
+    background-size: cover;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
   body main .interiorInicio {
     display: flex;
     flex-direction: column;
@@ -1389,11 +1457,12 @@ body main .carrusel .img-index {
   height: auto;
 }
 body main .carrusel .logo {
+  width: 150px;
+  height: 115px;
+  background-size: cover;
   position: fixed;
-  width: 250px;
-  height: 200px;
-  right: 60rem;
-  top: 7rem;
+  bottom: 10px;
+  right: 10px;
 }
 body main .interiorInicio {
   display: flex;
@@ -1405,7 +1474,7 @@ body main .interiorInicio .img-carrusel {
   width: 15rem;
   height: auto;
   margin-left: 2rem;
-  border-radius: 1rem;
+  border-radius: 15px;
   transition: transform 0.3s ease;
 }
 body main .interiorInicio .img-carrusel:hover {
@@ -1511,6 +1580,22 @@ body footer .p-footer {
 }
 
 @media (max-width: 990px) {
+  body main .carrusel {
+    display: flex;
+    justify-content: center;
+  }
+  body main .carrusel .img-index {
+    width: 100%;
+    height: auto;
+  }
+  body main .carrusel .logo {
+    width: 115px;
+    height: 90px;
+    background-size: cover;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
   body main .interiorInicio {
     display: flex;
     flex-direction: column;
@@ -1822,11 +1907,12 @@ body main .carrusel .img-index {
   height: auto;
 }
 body main .carrusel .logo {
+  width: 150px;
+  height: 115px;
+  background-size: cover;
   position: fixed;
-  width: 250px;
-  height: 200px;
-  right: 60rem;
-  top: 7rem;
+  bottom: 10px;
+  right: 10px;
 }
 body main .interiorInicio {
   display: flex;
@@ -1838,7 +1924,7 @@ body main .interiorInicio .img-carrusel {
   width: 15rem;
   height: auto;
   margin-left: 2rem;
-  border-radius: 1rem;
+  border-radius: 15px;
   transition: transform 0.3s ease;
 }
 body main .interiorInicio .img-carrusel:hover {
@@ -1944,6 +2030,22 @@ body footer .p-footer {
 }
 
 @media (max-width: 990px) {
+  body main .carrusel {
+    display: flex;
+    justify-content: center;
+  }
+  body main .carrusel .img-index {
+    width: 100%;
+    height: auto;
+  }
+  body main .carrusel .logo {
+    width: 115px;
+    height: 90px;
+    background-size: cover;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
   body main .interiorInicio {
     display: flex;
     flex-direction: column;
@@ -2139,11 +2241,12 @@ body main .carrusel .img-index {
   height: auto;
 }
 body main .carrusel .logo {
+  width: 150px;
+  height: 115px;
+  background-size: cover;
   position: fixed;
-  width: 250px;
-  height: 200px;
-  right: 60rem;
-  top: 7rem;
+  bottom: 10px;
+  right: 10px;
 }
 body main .interiorInicio {
   display: flex;
@@ -2155,7 +2258,7 @@ body main .interiorInicio .img-carrusel {
   width: 15rem;
   height: auto;
   margin-left: 2rem;
-  border-radius: 1rem;
+  border-radius: 15px;
   transition: transform 0.3s ease;
 }
 body main .interiorInicio .img-carrusel:hover {
@@ -2261,6 +2364,22 @@ body footer .p-footer {
 }
 
 @media (max-width: 990px) {
+  body main .carrusel {
+    display: flex;
+    justify-content: center;
+  }
+  body main .carrusel .img-index {
+    width: 100%;
+    height: auto;
+  }
+  body main .carrusel .logo {
+    width: 115px;
+    height: 90px;
+    background-size: cover;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
   body main .interiorInicio {
     display: flex;
     flex-direction: column;
@@ -2362,11 +2481,12 @@ body main .carrusel .img-index {
   height: auto;
 }
 body main .carrusel .logo {
+  width: 150px;
+  height: 115px;
+  background-size: cover;
   position: fixed;
-  width: 250px;
-  height: 200px;
-  right: 60rem;
-  top: 7rem;
+  bottom: 10px;
+  right: 10px;
 }
 body main .interiorInicio {
   display: flex;
@@ -2378,7 +2498,7 @@ body main .interiorInicio .img-carrusel {
   width: 15rem;
   height: auto;
   margin-left: 2rem;
-  border-radius: 1rem;
+  border-radius: 15px;
   transition: transform 0.3s ease;
 }
 body main .interiorInicio .img-carrusel:hover {
@@ -2484,6 +2604,22 @@ body footer .p-footer {
 }
 
 @media (max-width: 990px) {
+  body main .carrusel {
+    display: flex;
+    justify-content: center;
+  }
+  body main .carrusel .img-index {
+    width: 100%;
+    height: auto;
+  }
+  body main .carrusel .logo {
+    width: 115px;
+    height: 90px;
+    background-size: cover;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
   body main .interiorInicio {
     display: flex;
     flex-direction: column;
