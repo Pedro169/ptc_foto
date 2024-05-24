@@ -21,12 +21,20 @@ body {
       text-shadow: 2px 2px 5px rgba(10, 0, 0, 0.925);
     }
   }
-  .container-conoceme {
+  h4{
+    font-size: 4rem;
+    font-family: $Dancing;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  .container-cotizacion {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 
-    .conoceme {
+    .cotizacion {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -37,10 +45,10 @@ body {
         margin-left: 3rem;
       }
     }
-    .p-conoceme {
+    .p-cotizacion{
       width: 35rem;
       margin-left: 3rem;
-      .row-conoceme {
+      .row-cotizacion {
         display: flex;
 
         p {
@@ -55,18 +63,77 @@ body {
       }
     }
   }
+  .container-cotizacion2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    background-color: black;
+    .video{
+      display: flex;
+
+    }
+    .presupuesto1{
+      display: flex;
+      font-size: 1.5rem;
+      flex-direction: column;
+      color: white;
+      padding: 1rem;
+      .titulo{
+        padding: 1rem;
+      }
+      .divisor{
+        background-color: white;
+        width: 20rem;
+        height: 1px;
+      }
+      .p2{
+        position: relative;
+        left: 1rem;
+      }
+    }
+  }
+  .container-cotizacion3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    background-color: white;
+    .imagen{
+      display: flex;
+      width: 600px;
+      height: 400px;
+      box-shadow: 0.2px 0.2px 10px black;
+
+    }
+    .presupuesto2{
+      display: flex;
+      font-size: 1.5rem;
+      flex-direction: column;
+      color: black;
+      padding: 1rem;
+      .titulo2{
+        padding: 1rem;
+      }
+      .divisor2{
+        background-color: black;
+        width: 20rem;
+        height: 1px;
+      }
+    }
+  }
 }
 @media (max-width: $tablet) {
   body {
     main {
-      .imagenFondo-conoceme {
+      .imagenFondo-cotizacion {
         background-position: center;
       }
-      .container-conoceme {
+      .container-cotizacion {
         flex-direction: column;
         width: 100%;
         height: auto;
-        .conoceme {
+        .cotizacion{
           width: 100%;
           text-align: center;
           margin-right: 2rem;
@@ -75,14 +142,14 @@ body {
             text-align: center;
           }
         }
-        .p-conoceme {
+        .p-cotizacion {
           width: 100%;
           padding: 1rem;
           font-size: 1rem;
           justify-content: center;
           align-items: center;
           margin-left: 0rem;
-          .row-conoceme {
+          .row-cotizacion {
             article {
               div {
                 display: flex;
