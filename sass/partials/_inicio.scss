@@ -47,14 +47,21 @@ body {
         width: 100%;
         height: auto;
       }
-      .logo {
-    
-        width: 150px;
-        height: 115px;
+      .logo {    
+        width: 95px;
+        height: 67px;
         background-size: cover;
         position: fixed;
-        bottom: 10px; 
-        right: 10px;
+        bottom: 1rem; 
+        right: 0.5rem;
+      }
+      .logo1 {    
+        width: 80px;
+        height: 75px;
+        background-size: cover;
+        position: fixed;
+        bottom: 6.1rem; 
+        right: 0.8rem;
       }
     }
     .interiorInicio {
@@ -180,34 +187,15 @@ body {
 }
 @media (max-width: $tablet) {
   body {
-    main {
-      
-      .carrusel {
-        display: flex;
-        justify-content: center;
-        .img-index {
-          width: 100%;
-          height: auto;
-        }
-        .logo {
-      
-          width: 115px;
-          height: 90px;
-          background-size: cover;
-          position: fixed;
-          bottom: 10px; 
-          right: 10px;
-        }
-      }
-      
+    main {      
+     
       .interiorInicio {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 0.5rem;
-        width: 100%;
-       
+        width: 100%;       
       }
       h2 {
         font-size: 2rem;
@@ -215,6 +203,31 @@ body {
       .imagenFondo {
         background-position: center;
       }
+      .carrusel {
+        display: flex;
+        justify-content: center;
+        .img-index {
+          width: 100%;
+          height: auto;
+        }
+        .logo {    
+          width: 65px;
+          height: 50px;
+          background-size: cover;
+          position: fixed;
+          bottom: 0.9rem; 
+          right: 0.5rem;
+        }
+        .logo1 {    
+          width: 50px;
+          height: 45px;
+          background-size: cover;
+          position: fixed;
+          bottom: 5.1rem; 
+          right: 0.8rem;
+        }
+      }
+      
       .bienvenida {
         display: flex;
         flex-direction: column;
@@ -237,7 +250,8 @@ body {
             margin-left: 2rem;
           }
         }
-      }
+      }         
+   
     }
     footer {
       width: 100%;

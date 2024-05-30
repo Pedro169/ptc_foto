@@ -101,13 +101,13 @@ body {
     background-color: white;
     .imagen{
       display: flex;
-      width: 600px;
-      height: 400px;
+      width: 1070px;
+      height: 720px;
       box-shadow: 0.2px 0.2px 10px black;
-
     }
     .presupuesto2{
       display: flex;
+      align-items: center;
       font-size: 1.5rem;
       flex-direction: column;
       color: black;
