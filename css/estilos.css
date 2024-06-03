@@ -52,6 +52,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,500&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -63,7 +75,7 @@ body main nav {
   background-color: red;
 }
 body main h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Dancing Script", cursive;
   text-align: center;
   margin-top: 1rem;
@@ -323,7 +335,7 @@ body main nav {
   background-color: red;
 }
 body main h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Dancing Script", cursive;
   text-align: center;
   margin-top: 1rem;
@@ -583,7 +595,7 @@ body main nav {
   background-color: red;
 }
 body main h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Dancing Script", cursive;
   text-align: center;
   margin-top: 1rem;
@@ -1187,7 +1199,7 @@ body main nav {
   background-color: red;
 }
 body main h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Dancing Script", cursive;
   text-align: center;
   margin-top: 1rem;
@@ -1541,7 +1553,7 @@ body main nav {
   background-color: red;
 }
 body main h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Dancing Script", cursive;
   text-align: center;
   margin-top: 1rem;
@@ -2045,7 +2057,7 @@ body main nav {
   background-color: red;
 }
 body main h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Dancing Script", cursive;
   text-align: center;
   margin-top: 1rem;
@@ -2399,7 +2411,7 @@ body main nav {
   background-color: red;
 }
 body main h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Dancing Script", cursive;
   text-align: center;
   margin-top: 1rem;
@@ -2659,7 +2671,7 @@ body main nav {
   background-color: red;
 }
 body main h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Dancing Script", cursive;
   text-align: center;
   margin-top: 1rem;
@@ -3183,7 +3195,601 @@ body main nav {
   background-color: red;
 }
 body main h1 {
+  font-size: 2.5rem;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+body main h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: white;
+  text-decoration-line: black;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+}
+body main h3 {
   font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+body main .navbar-brand1 {
+  font-family: "Dancing Script", cursive;
+}
+body main .carrusel {
+  display: flex;
+  justify-content: center;
+}
+body main .carrusel .img-index {
+  width: 100%;
+  height: auto;
+}
+body main .carrusel .logo {
+  width: 95px;
+  height: 67px;
+  background-size: cover;
+  position: fixed;
+  bottom: 1rem;
+  right: 0.5rem;
+}
+body main .carrusel .logo1 {
+  width: 80px;
+  height: 75px;
+  background-size: cover;
+  position: fixed;
+  bottom: 6.1rem;
+  right: 0.8rem;
+}
+body main .interiorInicio {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+body main .interiorInicio .img-carrusel {
+  padding: 1rem;
+  width: 15rem;
+  height: auto;
+  margin-left: 2rem;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+body main .interiorInicio .img-carrusel:hover {
+  transform: scale(1.2);
+}
+body main .interiorInicio h3 {
+  font-size: 1rem;
+  font-family: "Playfair Display", serif;
+  color: black;
+  text-decoration: none;
+}
+body main .imagenFondo {
+  margin: 0;
+  padding: 0;
+  background-image: url("../../img/RoxanayGeral/RyG (160)H.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: #333;
+  width: auto;
+  height: 55vh;
+  display: flex;
+  justify-content: Center;
+  align-items: center;
+}
+body main .imagenFondo .fuente {
+  color: white;
+  text-shadow: 2px 2px 5px rgba(12, 2, 2, 0.925);
+}
+body main .bienvenida {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+body main .bienvenida .perfil {
+  padding: 1rem;
+  width: 25rem;
+  height: auto;
+  margin-right: 2rem;
+  border-radius: 50%;
+}
+body main .bienvenida .p-bienvenida {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+}
+body main .bienvenida .p-bienvenida .p {
+  text-align: justify;
+  font-family: "Playfair Display", serif;
+}
+body main .bienvenida .p-bienvenida .btn-conoceme {
+  margin-left: 18rem;
+  color: black;
+  text-decoration: none;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5rem;
+  padding: 0.2rem 1rem;
+  border: solid 1px black;
+}
+body main .bienvenida .p-bienvenida .btn-conoceme:hover {
+  background-color: black;
+  color: white;
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40vh;
+  background-color: black;
+  color: white;
+}
+body footer .img-piePagina .img-footer {
+  width: 7rem;
+  height: auto;
+  margin-top: 1.5rem;
+  box-shadow: 0px 0px 1.5px white;
+}
+body footer h4 {
+  margin-top: 2rem;
+  font-size: 1.7rem;
+  font-family: "Dancing Script", cursive;
+}
+body footer .division {
+  color: white;
+  width: 6rem;
+  height: 1px;
+  border-bottom: 2px solid white;
+}
+body footer .icon {
+  color: white;
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+}
+body footer .p-footer {
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 990px) {
+  body main .interiorInicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    width: 100%;
+  }
+  body main h2 {
+    font-size: 2rem;
+  }
+  body main .imagenFondo {
+    background-position: center;
+  }
+  body main .carrusel {
+    display: flex;
+    justify-content: center;
+  }
+  body main .carrusel .img-index {
+    width: 100%;
+    height: auto;
+  }
+  body main .carrusel .logo {
+    width: 65px;
+    height: 50px;
+    background-size: cover;
+    position: fixed;
+    bottom: 0.9rem;
+    right: 0.5rem;
+  }
+  body main .carrusel .logo1 {
+    width: 50px;
+    height: 48px;
+    background-size: cover;
+    position: fixed;
+    bottom: 5.1rem;
+    right: 0.8rem;
+  }
+  body main .bienvenida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  body main .bienvenida .p-bienvenida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  body main .bienvenida .p-bienvenida h1 {
+    font-size: 1.5rem;
+  }
+  body main .bienvenida .p-bienvenida .p {
+    width: 15rem;
+  }
+  body main .bienvenida .p-bienvenida .btn-conoceme {
+    text-align: center;
+    margin-left: 2rem;
+  }
+  body footer {
+    width: 100%;
+    height: 100%;
+  }
+  body footer .img-piePagina {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  body footer .img-piePagina .img-footer {
+    width: 70%;
+    height: auto;
+    box-shadow: 0.2px 0.2px 10px white;
+  }
+  body footer .divIcon {
+    color: white;
+    padding: 0.3rem;
+  }
+}
+body .imagenFondo-cotizacion2 {
+  margin: 0;
+  padding: 0;
+  background-image: url("../../img/horizontal15.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: #333;
+  width: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: Center;
+  align-items: center;
+}
+body .imagenFondo-cotizacion2 .fuente2 {
+  color: white;
+  text-shadow: 2px 2px 5px rgba(10, 0, 0, 0.925);
+}
+body h4 {
+  font-size: 4rem;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+body .p2 {
+  display: flex;
+  position: relative;
+  font-size: 2rem;
+  text-align: right;
+  font-family: "Dancing Script", cursive;
+}
+body .container-cotizacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container-cotizacion .cotizacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+body .container-cotizacion .cotizacion .img-about {
+  width: 20rem;
+  border-radius: 50%;
+  margin-left: 3rem;
+}
+body .container-cotizacion .p-cotizacion {
+  width: 35rem;
+  margin-left: 3rem;
+}
+body .container-cotizacion .p-cotizacion .row-cotizacion {
+  display: flex;
+}
+body .container-cotizacion .p-cotizacion .row-cotizacion p {
+  text-align: justify;
+  font-family: "Playfair Display", serif;
+}
+body .container-cotizacion .p-cotizacion .row-cotizacion span {
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: "Dancing Script", cursive;
+}
+body .container-cotizacion2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  background-color: black;
+}
+body .container-cotizacion2 .video {
+  display: flex;
+}
+body .container-cotizacion2 .presupuesto1 {
+  display: flex;
+  font-size: 1.5rem;
+  flex-direction: column;
+  color: white;
+  padding: 1rem;
+}
+body .container-cotizacion2 .presupuesto1 .titulo {
+  padding: 1rem;
+}
+body .container-cotizacion2 .presupuesto1 .divisor {
+  background-color: white;
+  width: 20rem;
+  height: 1px;
+}
+body .container-cotizacion2 .imgPresupuesto1 {
+  width: 20rem;
+  height: 30rem;
+  position: relative;
+  top: 1.5rem;
+  left: 6rem;
+  box-shadow: 0.2px 0.2px 10px white;
+}
+body .container-cotizacion3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  background-color: white;
+}
+body .container-cotizacion3 .imagen {
+  display: flex;
+  width: 1070px;
+  height: 720px;
+  box-shadow: 0.2px 0.2px 10px black;
+}
+body .container-cotizacion3 .presupuesto2 {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  flex-direction: column;
+  color: black;
+  padding: 1rem;
+}
+body .container-cotizacion3 .presupuesto2 .titulo2 {
+  padding: 1rem;
+}
+body .container-cotizacion3 .presupuesto2 .divisor2 {
+  background-color: black;
+  width: 20rem;
+  height: 1px;
+}
+body .container-cotizacion4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+body .container-cotizacion4 .presupuesto4 {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  flex-direction: column;
+  color: white;
+  padding: 4rem;
+}
+body .container-cotizacion4 .presupuesto4 .imgPresupuesto4 {
+  width: 720px;
+  height: 450px;
+  box-shadow: 0.2px 0.2px 10px white;
+}
+body .container-cotizacion4 .presupuesto4 .titulo2 {
+  padding: 1rem;
+}
+body .container-cotizacion4 .presupuesto4 .divisor2 {
+  background-color: black;
+  width: 20rem;
+  height: 1px;
+}
+body .container-cotizacion4 .container-cotizacion5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  background-color: black;
+}
+
+@media (max-width: 990px) {
+  body main .imagenFondo-cotizacion {
+    background-position: center;
+  }
+  body main .container-cotizacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body main .container-cotizacion .cotizacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+  }
+  body main .container-cotizacion .cotizacion .img-about {
+    width: 20rem;
+    border-radius: 50%;
+    margin-left: 3rem;
+  }
+  body main .container-cotizacion .p-cotizacion {
+    width: 35rem;
+    margin-left: 3rem;
+  }
+  body main .container-cotizacion .p-cotizacion .row-cotizacion {
+    display: flex;
+  }
+  body main .container-cotizacion .p-cotizacion .row-cotizacion p {
+    text-align: justify;
+    font-family: "Playfair Display", serif;
+  }
+  body main .container-cotizacion .p-cotizacion .row-cotizacion span {
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: "Dancing Script", cursive;
+  }
+  body main .container-cotizacion2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    background-color: black;
+  }
+  body main .container-cotizacion2 .video {
+    display: flex;
+  }
+  body main .container-cotizacion2 .presupuesto1 {
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: column;
+    color: white;
+    padding: 1rem;
+  }
+  body main .container-cotizacion2 .presupuesto1 .titulo {
+    padding: 1rem;
+  }
+  body main .container-cotizacion2 .presupuesto1 .divisor {
+    background-color: white;
+    width: 20rem;
+    height: 1px;
+  }
+  body main .container-cotizacion2 .imgPresupuesto1 {
+    width: 20rem;
+    height: 30rem;
+    position: relative;
+    top: 1.5rem;
+    left: 0.5rem;
+    box-shadow: 0.2px 0.2px 10px white;
+  }
+  body main .container-cotizacion3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    background-color: white;
+  }
+  body main .container-cotizacion3 .imagen {
+    display: flex;
+    width: 340px;
+    height: 250px;
+    box-shadow: 0.2px 0.2px 10px black;
+  }
+  body main .container-cotizacion3 .presupuesto2 {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    flex-direction: column;
+    color: black;
+    padding: 1rem;
+  }
+  body main .container-cotizacion3 .presupuesto2 .titulo2 {
+    padding: 1rem;
+  }
+  body main .container-cotizacion3 .presupuesto2 .divisor2 {
+    background-color: black;
+    width: 20rem;
+    height: 1px;
+  }
+  body main .container-cotizacion4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  body main .container-cotizacion4 .presupuesto4 {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    flex-direction: column;
+    color: white;
+    padding: 1rem;
+  }
+  body main .container-cotizacion4 .presupuesto4 .imgPresupuesto4 {
+    width: 100%;
+    height: auto;
+    box-shadow: 0.2px 0.2px 10px white;
+  }
+  body main .container-cotizacion4 .presupuesto4 .titulo2 {
+    padding: 1rem;
+  }
+  body main .container-cotizacion4 .presupuesto4 .divisor2 {
+    background-color: black;
+    width: 20rem;
+    height: 1px;
+  }
+  body main .container-cotizacion4 .container-cotizacion5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    background-color: black;
+  }
+  body main .container-cotizacion {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  body main .container-cotizacion .cotizacion {
+    width: 100%;
+    text-align: center;
+    margin-right: 2rem;
+  }
+  body main .container-cotizacion .cotizacion .img-about {
+    width: 100%;
+    text-align: center;
+  }
+  body main .container-cotizacion .p-cotizacion {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0rem;
+  }
+  body main .container-cotizacion .p-cotizacion .row-cotizacion article div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  body main .container-cotizacion .p-cotizacion .row-cotizacion article div p {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.4rem;
+  }
+  body main .container-cotizacion .p-cotizacion .row-cotizacion article div p span {
+    font-size: 2rem;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body main nav {
+  background-color: red;
+}
+body main h1 {
+  font-size: 2.5rem;
   font-family: "Dancing Script", cursive;
   text-align: center;
   margin-top: 1rem;
@@ -3442,7 +4048,7 @@ body .imagenFondo-cotizacion {
   font-family: Arial, sans-serif;
   color: #333;
   width: auto;
-  height: 85vh;
+  height: 100vh;
   display: flex;
   justify-content: Center;
   align-items: center;
@@ -3484,6 +4090,7 @@ body .container-cotizacion .p-cotizacion .row-cotizacion {
 }
 body .container-cotizacion .p-cotizacion .row-cotizacion p {
   text-align: justify;
+  font-size: 1.3rem;
   font-family: "Playfair Display", serif;
 }
 body .container-cotizacion .p-cotizacion .row-cotizacion span {
@@ -3498,27 +4105,15 @@ body .container-cotizacion2 {
   padding: 4rem;
   background-color: black;
 }
-body .container-cotizacion2 .video {
+body .container-cotizacion2 .divVideo {
+  height: auto;
+  height: auto;
+}
+body .container-cotizacion2 .divVideo .video {
   display: flex;
-}
-body .container-cotizacion2 .presupuesto1 {
-  display: flex;
-  font-size: 1.5rem;
-  flex-direction: column;
-  color: white;
-  padding: 1rem;
-}
-body .container-cotizacion2 .presupuesto1 .titulo {
-  padding: 1rem;
-}
-body .container-cotizacion2 .presupuesto1 .divisor {
-  background-color: white;
-  width: 20rem;
-  height: 1px;
-}
-body .container-cotizacion2 .presupuesto1 .p2 {
+  justify-content: center;
   position: relative;
-  left: 1rem;
+  right: 9rem;
 }
 body .container-cotizacion3 {
   display: flex;
@@ -3533,21 +4128,28 @@ body .container-cotizacion3 .imagen {
   height: 720px;
   box-shadow: 0.2px 0.2px 10px black;
 }
-body .container-cotizacion3 .presupuesto2 {
+body .divBoton {
   display: flex;
+  padding: 2rem;
+  justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
-  flex-direction: column;
+  position: relative;
+  right: 9rem;
+}
+body .divBoton .btn-cotizar {
+  background-color: white;
+  margin-left: 18rem;
   color: black;
-  padding: 1rem;
+  text-decoration: none;
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  padding: 0.2rem 2rem;
+  border: solid 1px black;
+  border-radius: 0.5rem;
 }
-body .container-cotizacion3 .presupuesto2 .titulo2 {
-  padding: 1rem;
-}
-body .container-cotizacion3 .presupuesto2 .divisor2 {
+body .divBoton .btn-cotizar:hover {
   background-color: black;
-  width: 20rem;
-  height: 1px;
+  color: white;
 }
 
 @media (max-width: 990px) {
@@ -3589,6 +4191,461 @@ body .container-cotizacion3 .presupuesto2 .divisor2 {
     padding: 0.4rem;
   }
   body main .container-cotizacion .p-cotizacion .row-cotizacion article div p span {
+    font-size: 2rem;
+  }
+  body main .container-cotizacion2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    background-color: black;
+  }
+  body main .container-cotizacion2 .divVideo {
+    height: auto;
+    height: auto;
+  }
+  body main .container-cotizacion2 .divVideo .video {
+    display: flex;
+    width: 550px;
+    height: 350;
+    position: relative;
+    right: 9.5rem;
+  }
+  body main .divBoton {
+    display: flex;
+    padding: 2rem;
+    position: relative;
+    right: 10rem;
+  }
+  body main .divBoton .btn-cotizar {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-family: "Dancing Script", cursive;
+    font-size: 1.5rem;
+    padding: 0.2rem 2rem;
+    border: solid 1px black;
+    border-radius: 0.5rem;
+  }
+  body main .divBoton .btn-cotizar:hover {
+    background-color: black;
+    color: white;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body main nav {
+  background-color: red;
+}
+body main h1 {
+  font-size: 2.5rem;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+body main h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: white;
+  text-decoration-line: black;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+}
+body main h3 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+body main .navbar-brand1 {
+  font-family: "Dancing Script", cursive;
+}
+body main .carrusel {
+  display: flex;
+  justify-content: center;
+}
+body main .carrusel .img-index {
+  width: 100%;
+  height: auto;
+}
+body main .carrusel .logo {
+  width: 95px;
+  height: 67px;
+  background-size: cover;
+  position: fixed;
+  bottom: 1rem;
+  right: 0.5rem;
+}
+body main .carrusel .logo1 {
+  width: 80px;
+  height: 75px;
+  background-size: cover;
+  position: fixed;
+  bottom: 6.1rem;
+  right: 0.8rem;
+}
+body main .interiorInicio {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+body main .interiorInicio .img-carrusel {
+  padding: 1rem;
+  width: 15rem;
+  height: auto;
+  margin-left: 2rem;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+body main .interiorInicio .img-carrusel:hover {
+  transform: scale(1.2);
+}
+body main .interiorInicio h3 {
+  font-size: 1rem;
+  font-family: "Playfair Display", serif;
+  color: black;
+  text-decoration: none;
+}
+body main .imagenFondo {
+  margin: 0;
+  padding: 0;
+  background-image: url("../../img/RoxanayGeral/RyG (160)H.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: #333;
+  width: auto;
+  height: 55vh;
+  display: flex;
+  justify-content: Center;
+  align-items: center;
+}
+body main .imagenFondo .fuente {
+  color: white;
+  text-shadow: 2px 2px 5px rgba(12, 2, 2, 0.925);
+}
+body main .bienvenida {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+body main .bienvenida .perfil {
+  padding: 1rem;
+  width: 25rem;
+  height: auto;
+  margin-right: 2rem;
+  border-radius: 50%;
+}
+body main .bienvenida .p-bienvenida {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+}
+body main .bienvenida .p-bienvenida .p {
+  text-align: justify;
+  font-family: "Playfair Display", serif;
+}
+body main .bienvenida .p-bienvenida .btn-conoceme {
+  margin-left: 18rem;
+  color: black;
+  text-decoration: none;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5rem;
+  padding: 0.2rem 1rem;
+  border: solid 1px black;
+}
+body main .bienvenida .p-bienvenida .btn-conoceme:hover {
+  background-color: black;
+  color: white;
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40vh;
+  background-color: black;
+  color: white;
+}
+body footer .img-piePagina .img-footer {
+  width: 7rem;
+  height: auto;
+  margin-top: 1.5rem;
+  box-shadow: 0px 0px 1.5px white;
+}
+body footer h4 {
+  margin-top: 2rem;
+  font-size: 1.7rem;
+  font-family: "Dancing Script", cursive;
+}
+body footer .division {
+  color: white;
+  width: 6rem;
+  height: 1px;
+  border-bottom: 2px solid white;
+}
+body footer .icon {
+  color: white;
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+}
+body footer .p-footer {
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 990px) {
+  body main .interiorInicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    width: 100%;
+  }
+  body main h2 {
+    font-size: 2rem;
+  }
+  body main .imagenFondo {
+    background-position: center;
+  }
+  body main .carrusel {
+    display: flex;
+    justify-content: center;
+  }
+  body main .carrusel .img-index {
+    width: 100%;
+    height: auto;
+  }
+  body main .carrusel .logo {
+    width: 65px;
+    height: 50px;
+    background-size: cover;
+    position: fixed;
+    bottom: 0.9rem;
+    right: 0.5rem;
+  }
+  body main .carrusel .logo1 {
+    width: 50px;
+    height: 48px;
+    background-size: cover;
+    position: fixed;
+    bottom: 5.1rem;
+    right: 0.8rem;
+  }
+  body main .bienvenida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  body main .bienvenida .p-bienvenida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  body main .bienvenida .p-bienvenida h1 {
+    font-size: 1.5rem;
+  }
+  body main .bienvenida .p-bienvenida .p {
+    width: 15rem;
+  }
+  body main .bienvenida .p-bienvenida .btn-conoceme {
+    text-align: center;
+    margin-left: 2rem;
+  }
+  body footer {
+    width: 100%;
+    height: 100%;
+  }
+  body footer .img-piePagina {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  body footer .img-piePagina .img-footer {
+    width: 70%;
+    height: auto;
+    box-shadow: 0.2px 0.2px 10px white;
+  }
+  body footer .divIcon {
+    color: white;
+    padding: 0.3rem;
+  }
+}
+body .imagenFondo-presentacion {
+  margin: 0;
+  padding: 0;
+  background-image: url("../../img/horizontal24.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: #333;
+  width: auto;
+  height: 85vh;
+  display: flex;
+  justify-content: Center;
+  align-items: center;
+}
+body .imagenFondo-presentacion .fuente2 {
+  color: white;
+  text-shadow: 2px 2px 5px rgba(10, 0, 0, 0.925);
+}
+body h4 {
+  font-size: 4rem;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+body .container-presentacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+body .p-presentacion {
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 3rem;
+  display: flex;
+}
+body .p-presentacion .parrafo {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  color: white;
+  width: 500px;
+  position: relative;
+  right: 8rem;
+  padding: 1rem;
+}
+body .p-presentacion .parrafo .p-parrafo {
+  font-size: 1.5rem;
+}
+body .p-presentacion .imgNovios {
+  width: 500px;
+  height: 700px;
+  position: relative;
+  left: 2rem;
+}
+
+.container-presentacion2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 4.5rem;
+  background-color: white;
+}
+.container-presentacion2 .video {
+  display: flex;
+  padding: 1rem;
+  width: 1080px;
+  height: 720;
+}
+
+.container-presentacion3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  background-color: white;
+}
+.container-presentacion3 .imagen {
+  display: flex;
+  width: 1070px;
+  height: 720px;
+  box-shadow: 0.2px 0.2px 10px black;
+}
+
+.divBoton {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.divBoton .btn-presentacion {
+  background-color: white;
+  margin-left: 18rem;
+  color: black;
+  text-decoration: none;
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  padding: 0.2rem 2rem;
+  border: solid 1px black;
+  border-radius: 0.5rem;
+}
+.divBoton .btn-presentacion:hover {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 990px) {
+  body main .imagenFondo-presentacion {
+    background-position: center;
+  }
+  body main .container-presentacion {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  body main .container-presentacion .cotizacion {
+    width: 100%;
+    text-align: center;
+    margin-right: 2rem;
+  }
+  body main .container-presentacion .cotizacion .img-about {
+    width: 100%;
+    text-align: center;
+  }
+  body main .container-presentacion .p-presentacion {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0rem;
+  }
+  body main .container-presentacion .p-presentacion .row-presentacion article div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  body main .container-presentacion .p-presentacion .row-presentacion article div p {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.4rem;
+  }
+  body main .container-presentacion .p-presentacion .row-presentacion article div p span {
     font-size: 2rem;
   }
 }
