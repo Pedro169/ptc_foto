@@ -3535,6 +3535,9 @@ body .container-cotizacion2 .presupuesto1 .divisor {
   width: 20rem;
   height: 1px;
 }
+body .container-cotizacion2 .presupuesto1 .puntoNone {
+  list-style-type: none;
+}
 body .container-cotizacion2 .imgPresupuesto1 {
   width: 20rem;
   height: 30rem;
@@ -4550,6 +4553,7 @@ body .p-presentacion .parrafo {
 }
 body .p-presentacion .parrafo .p-parrafo {
   font-size: 1.5rem;
+  font-family: "Playfair Display", serif;
 }
 body .p-presentacion .imgNovios {
   width: 500px;
