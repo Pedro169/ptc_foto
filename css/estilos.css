@@ -132,15 +132,17 @@ body main .interiorInicio {
   justify-content: center;
   padding: 3rem;
   background-color: black;
+  color: white;
 }
 body main .interiorInicio .img-carrusel {
   padding: 1rem;
   width: 15rem;
   height: auto;
   margin-left: 2rem;
-  border-radius: 15px;
+  border-radius: 1rem;
   transition: transform 0.3s ease;
   background-color: black;
+  color: white;
 }
 body main .interiorInicio .img-carrusel:hover {
   transform: scale(1.2);
@@ -148,7 +150,6 @@ body main .interiorInicio .img-carrusel:hover {
 body main .interiorInicio h3 {
   font-size: 1rem;
   font-family: "Playfair Display", serif;
-  color: black;
   text-decoration: none;
 }
 body main .imagenFondo {
@@ -190,7 +191,7 @@ body main .bienvenida .p-bienvenida {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 33rem;
+  width: 33 rem;
   font-size: 1.5rem;
 }
 body main .bienvenida .p-bienvenida .p {
@@ -199,16 +200,16 @@ body main .bienvenida .p-bienvenida .p {
 }
 body main .bienvenida .p-bienvenida .btn-conoceme {
   margin-left: 18rem;
-  color: black;
+  color: white;
   text-decoration: none;
   font-family: "Dancing Script", cursive;
   font-size: 1.5rem;
   padding: 0.2rem 1rem;
-  border: solid 1px black;
+  border: solid 1px white;
 }
 body main .bienvenida .p-bienvenida .btn-conoceme:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 body footer {
   display: flex;
@@ -399,15 +400,17 @@ body main .interiorInicio {
   justify-content: center;
   padding: 3rem;
   background-color: black;
+  color: white;
 }
 body main .interiorInicio .img-carrusel {
   padding: 1rem;
   width: 15rem;
   height: auto;
   margin-left: 2rem;
-  border-radius: 15px;
+  border-radius: 1rem;
   transition: transform 0.3s ease;
   background-color: black;
+  color: white;
 }
 body main .interiorInicio .img-carrusel:hover {
   transform: scale(1.2);
@@ -415,7 +418,6 @@ body main .interiorInicio .img-carrusel:hover {
 body main .interiorInicio h3 {
   font-size: 1rem;
   font-family: "Playfair Display", serif;
-  color: black;
   text-decoration: none;
 }
 body main .imagenFondo, body main .img-fondoBody {
@@ -457,7 +459,7 @@ body main .bienvenida .p-bienvenida {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 33rem;
+  width: 33 rem;
   font-size: 1.5rem;
 }
 body main .bienvenida .p-bienvenida .p {
@@ -466,16 +468,16 @@ body main .bienvenida .p-bienvenida .p {
 }
 body main .bienvenida .p-bienvenida .btn-conoceme {
   margin-left: 18rem;
-  color: black;
+  color: white;
   text-decoration: none;
   font-family: "Dancing Script", cursive;
   font-size: 1.5rem;
   padding: 0.2rem 1rem;
-  border: solid 1px black;
+  border: solid 1px white;
 }
 body main .bienvenida .p-bienvenida .btn-conoceme:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 body footer {
   display: flex;
@@ -666,15 +668,17 @@ body main .interiorInicio {
   justify-content: center;
   padding: 3rem;
   background-color: black;
+  color: white;
 }
 body main .interiorInicio .img-carrusel {
   padding: 1rem;
   width: 15rem;
   height: auto;
   margin-left: 2rem;
-  border-radius: 15px;
+  border-radius: 1rem;
   transition: transform 0.3s ease;
   background-color: black;
+  color: white;
 }
 body main .interiorInicio .img-carrusel:hover {
   transform: scale(1.2);
@@ -682,7 +686,6 @@ body main .interiorInicio .img-carrusel:hover {
 body main .interiorInicio h3 {
   font-size: 1rem;
   font-family: "Playfair Display", serif;
-  color: black;
   text-decoration: none;
 }
 body main .imagenFondo, body main .img-fondoBody {
@@ -724,7 +727,7 @@ body main .bienvenida .p-bienvenida {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 33rem;
+  width: 33 rem;
   font-size: 1.5rem;
 }
 body main .bienvenida .p-bienvenida .p {
@@ -733,16 +736,16 @@ body main .bienvenida .p-bienvenida .p {
 }
 body main .bienvenida .p-bienvenida .btn-conoceme {
   margin-left: 18rem;
-  color: black;
+  color: white;
   text-decoration: none;
   font-family: "Dancing Script", cursive;
   font-size: 1.5rem;
   padding: 0.2rem 1rem;
-  border: solid 1px black;
+  border: solid 1px white;
 }
 body main .bienvenida .p-bienvenida .btn-conoceme:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 body footer {
   display: flex;
@@ -1277,15 +1280,17 @@ body main .interiorInicio {
   justify-content: center;
   padding: 3rem;
   background-color: black;
+  color: white;
 }
 body main .interiorInicio .img-carrusel {
   padding: 1rem;
   width: 15rem;
   height: auto;
   margin-left: 2rem;
-  border-radius: 15px;
+  border-radius: 1rem;
   transition: transform 0.3s ease;
   background-color: black;
+  color: white;
 }
 body main .interiorInicio .img-carrusel:hover {
   transform: scale(1.2);
@@ -1293,7 +1298,6 @@ body main .interiorInicio .img-carrusel:hover {
 body main .interiorInicio h3 {
   font-size: 1rem;
   font-family: "Playfair Display", serif;
-  color: black;
   text-decoration: none;
 }
 body main .imagenFondo {
@@ -1335,7 +1339,7 @@ body main .bienvenida .p-bienvenida {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 33rem;
+  width: 33 rem;
   font-size: 1.5rem;
 }
 body main .bienvenida .p-bienvenida .p {
@@ -1344,16 +1348,16 @@ body main .bienvenida .p-bienvenida .p {
 }
 body main .bienvenida .p-bienvenida .btn-conoceme {
   margin-left: 18rem;
-  color: black;
+  color: white;
   text-decoration: none;
   font-family: "Dancing Script", cursive;
   font-size: 1.5rem;
   padding: 0.2rem 1rem;
-  border: solid 1px black;
+  border: solid 1px white;
 }
 body main .bienvenida .p-bienvenida .btn-conoceme:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 body footer {
   display: flex;
@@ -1643,15 +1647,17 @@ body main .interiorInicio {
   justify-content: center;
   padding: 3rem;
   background-color: black;
+  color: white;
 }
 body main .interiorInicio .img-carrusel {
   padding: 1rem;
   width: 15rem;
   height: auto;
   margin-left: 2rem;
-  border-radius: 15px;
+  border-radius: 1rem;
   transition: transform 0.3s ease;
   background-color: black;
+  color: white;
 }
 body main .interiorInicio .img-carrusel:hover {
   transform: scale(1.2);
@@ -1659,7 +1665,6 @@ body main .interiorInicio .img-carrusel:hover {
 body main .interiorInicio h3 {
   font-size: 1rem;
   font-family: "Playfair Display", serif;
-  color: black;
   text-decoration: none;
 }
 body main .imagenFondo {
@@ -1701,7 +1706,7 @@ body main .bienvenida .p-bienvenida {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 33rem;
+  width: 33 rem;
   font-size: 1.5rem;
 }
 body main .bienvenida .p-bienvenida .p {
@@ -1710,16 +1715,16 @@ body main .bienvenida .p-bienvenida .p {
 }
 body main .bienvenida .p-bienvenida .btn-conoceme {
   margin-left: 18rem;
-  color: black;
+  color: white;
   text-decoration: none;
   font-family: "Dancing Script", cursive;
   font-size: 1.5rem;
   padding: 0.2rem 1rem;
-  border: solid 1px black;
+  border: solid 1px white;
 }
 body main .bienvenida .p-bienvenida .btn-conoceme:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 body footer {
   display: flex;
@@ -2154,15 +2159,17 @@ body main .interiorInicio {
   justify-content: center;
   padding: 3rem;
   background-color: black;
+  color: white;
 }
 body main .interiorInicio .img-carrusel {
   padding: 1rem;
   width: 15rem;
   height: auto;
   margin-left: 2rem;
-  border-radius: 15px;
+  border-radius: 1rem;
   transition: transform 0.3s ease;
   background-color: black;
+  color: white;
 }
 body main .interiorInicio .img-carrusel:hover {
   transform: scale(1.2);
@@ -2170,7 +2177,6 @@ body main .interiorInicio .img-carrusel:hover {
 body main .interiorInicio h3 {
   font-size: 1rem;
   font-family: "Playfair Display", serif;
-  color: black;
   text-decoration: none;
 }
 body main .imagenFondo {
@@ -2212,7 +2218,7 @@ body main .bienvenida .p-bienvenida {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 33rem;
+  width: 33 rem;
   font-size: 1.5rem;
 }
 body main .bienvenida .p-bienvenida .p {
@@ -2221,16 +2227,16 @@ body main .bienvenida .p-bienvenida .p {
 }
 body main .bienvenida .p-bienvenida .btn-conoceme {
   margin-left: 18rem;
-  color: black;
+  color: white;
   text-decoration: none;
   font-family: "Dancing Script", cursive;
   font-size: 1.5rem;
   padding: 0.2rem 1rem;
-  border: solid 1px black;
+  border: solid 1px white;
 }
 body main .bienvenida .p-bienvenida .btn-conoceme:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 body footer {
   display: flex;
@@ -2515,15 +2521,17 @@ body main .interiorInicio {
   justify-content: center;
   padding: 3rem;
   background-color: black;
+  color: white;
 }
 body main .interiorInicio .img-carrusel {
   padding: 1rem;
   width: 15rem;
   height: auto;
   margin-left: 2rem;
-  border-radius: 15px;
+  border-radius: 1rem;
   transition: transform 0.3s ease;
   background-color: black;
+  color: white;
 }
 body main .interiorInicio .img-carrusel:hover {
   transform: scale(1.2);
@@ -2531,7 +2539,6 @@ body main .interiorInicio .img-carrusel:hover {
 body main .interiorInicio h3 {
   font-size: 1rem;
   font-family: "Playfair Display", serif;
-  color: black;
   text-decoration: none;
 }
 body main .imagenFondo {
@@ -2573,7 +2580,7 @@ body main .bienvenida .p-bienvenida {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 33rem;
+  width: 33 rem;
   font-size: 1.5rem;
 }
 body main .bienvenida .p-bienvenida .p {
@@ -2582,16 +2589,16 @@ body main .bienvenida .p-bienvenida .p {
 }
 body main .bienvenida .p-bienvenida .btn-conoceme {
   margin-left: 18rem;
-  color: black;
+  color: white;
   text-decoration: none;
   font-family: "Dancing Script", cursive;
   font-size: 1.5rem;
   padding: 0.2rem 1rem;
-  border: solid 1px black;
+  border: solid 1px white;
 }
 body main .bienvenida .p-bienvenida .btn-conoceme:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 body footer {
   display: flex;
@@ -2782,15 +2789,17 @@ body main .interiorInicio {
   justify-content: center;
   padding: 3rem;
   background-color: black;
+  color: white;
 }
 body main .interiorInicio .img-carrusel {
   padding: 1rem;
   width: 15rem;
   height: auto;
   margin-left: 2rem;
-  border-radius: 15px;
+  border-radius: 1rem;
   transition: transform 0.3s ease;
   background-color: black;
+  color: white;
 }
 body main .interiorInicio .img-carrusel:hover {
   transform: scale(1.2);
@@ -2798,7 +2807,6 @@ body main .interiorInicio .img-carrusel:hover {
 body main .interiorInicio h3 {
   font-size: 1rem;
   font-family: "Playfair Display", serif;
-  color: black;
   text-decoration: none;
 }
 body main .imagenFondo {
@@ -2840,7 +2848,7 @@ body main .bienvenida .p-bienvenida {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 33rem;
+  width: 33 rem;
   font-size: 1.5rem;
 }
 body main .bienvenida .p-bienvenida .p {
@@ -2849,16 +2857,16 @@ body main .bienvenida .p-bienvenida .p {
 }
 body main .bienvenida .p-bienvenida .btn-conoceme {
   margin-left: 18rem;
-  color: black;
+  color: white;
   text-decoration: none;
   font-family: "Dancing Script", cursive;
   font-size: 1.5rem;
   padding: 0.2rem 1rem;
-  border: solid 1px black;
+  border: solid 1px white;
 }
 body main .bienvenida .p-bienvenida .btn-conoceme:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 body footer {
   display: flex;
@@ -3313,15 +3321,17 @@ body main .interiorInicio {
   justify-content: center;
   padding: 3rem;
   background-color: black;
+  color: white;
 }
 body main .interiorInicio .img-carrusel {
   padding: 1rem;
   width: 15rem;
   height: auto;
   margin-left: 2rem;
-  border-radius: 15px;
+  border-radius: 1rem;
   transition: transform 0.3s ease;
   background-color: black;
+  color: white;
 }
 body main .interiorInicio .img-carrusel:hover {
   transform: scale(1.2);
@@ -3329,7 +3339,6 @@ body main .interiorInicio .img-carrusel:hover {
 body main .interiorInicio h3 {
   font-size: 1rem;
   font-family: "Playfair Display", serif;
-  color: black;
   text-decoration: none;
 }
 body main .imagenFondo {
@@ -3371,7 +3380,7 @@ body main .bienvenida .p-bienvenida {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 33rem;
+  width: 33 rem;
   font-size: 1.5rem;
 }
 body main .bienvenida .p-bienvenida .p {
@@ -3380,16 +3389,16 @@ body main .bienvenida .p-bienvenida .p {
 }
 body main .bienvenida .p-bienvenida .btn-conoceme {
   margin-left: 18rem;
-  color: black;
+  color: white;
   text-decoration: none;
   font-family: "Dancing Script", cursive;
   font-size: 1.5rem;
   padding: 0.2rem 1rem;
-  border: solid 1px black;
+  border: solid 1px white;
 }
 body main .bienvenida .p-bienvenida .btn-conoceme:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 body footer {
   display: flex;
@@ -3919,15 +3928,17 @@ body main .interiorInicio {
   justify-content: center;
   padding: 3rem;
   background-color: black;
+  color: white;
 }
 body main .interiorInicio .img-carrusel {
   padding: 1rem;
   width: 15rem;
   height: auto;
   margin-left: 2rem;
-  border-radius: 15px;
+  border-radius: 1rem;
   transition: transform 0.3s ease;
   background-color: black;
+  color: white;
 }
 body main .interiorInicio .img-carrusel:hover {
   transform: scale(1.2);
@@ -3935,7 +3946,6 @@ body main .interiorInicio .img-carrusel:hover {
 body main .interiorInicio h3 {
   font-size: 1rem;
   font-family: "Playfair Display", serif;
-  color: black;
   text-decoration: none;
 }
 body main .imagenFondo {
@@ -3977,7 +3987,7 @@ body main .bienvenida .p-bienvenida {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 33rem;
+  width: 33 rem;
   font-size: 1.5rem;
 }
 body main .bienvenida .p-bienvenida .p {
@@ -3986,16 +3996,16 @@ body main .bienvenida .p-bienvenida .p {
 }
 body main .bienvenida .p-bienvenida .btn-conoceme {
   margin-left: 18rem;
-  color: black;
+  color: white;
   text-decoration: none;
   font-family: "Dancing Script", cursive;
   font-size: 1.5rem;
   padding: 0.2rem 1rem;
-  border: solid 1px black;
+  border: solid 1px white;
 }
 body main .bienvenida .p-bienvenida .btn-conoceme:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 body footer {
   display: flex;
@@ -4380,15 +4390,17 @@ body main .interiorInicio {
   justify-content: center;
   padding: 3rem;
   background-color: black;
+  color: white;
 }
 body main .interiorInicio .img-carrusel {
   padding: 1rem;
   width: 15rem;
   height: auto;
   margin-left: 2rem;
-  border-radius: 15px;
+  border-radius: 1rem;
   transition: transform 0.3s ease;
   background-color: black;
+  color: white;
 }
 body main .interiorInicio .img-carrusel:hover {
   transform: scale(1.2);
@@ -4396,7 +4408,6 @@ body main .interiorInicio .img-carrusel:hover {
 body main .interiorInicio h3 {
   font-size: 1rem;
   font-family: "Playfair Display", serif;
-  color: black;
   text-decoration: none;
 }
 body main .imagenFondo {
@@ -4438,7 +4449,7 @@ body main .bienvenida .p-bienvenida {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 33rem;
+  width: 33 rem;
   font-size: 1.5rem;
 }
 body main .bienvenida .p-bienvenida .p {
@@ -4447,16 +4458,16 @@ body main .bienvenida .p-bienvenida .p {
 }
 body main .bienvenida .p-bienvenida .btn-conoceme {
   margin-left: 18rem;
-  color: black;
+  color: white;
   text-decoration: none;
   font-family: "Dancing Script", cursive;
   font-size: 1.5rem;
   padding: 0.2rem 1rem;
-  border: solid 1px black;
+  border: solid 1px white;
 }
 body main .bienvenida .p-bienvenida .btn-conoceme:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 body footer {
   display: flex;
