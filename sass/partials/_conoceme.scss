@@ -5,7 +5,7 @@ body {
   .imagenFondo-conoceme {
     margin: 0;
     padding: 0;
-    background-image: url("../../img/imagenFondo2.jpg");
+    background-image: url("../../img/ptc\ \(41\).jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -25,21 +25,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
 
     .conoceme {
       display: flex;
       justify-content: center;
       align-items: center;
       padding: 3rem;
+      background-color: black;
       .img-about {
-        width: 20rem;
+        width: 35rem;
         border-radius: 50%;
         margin-left: 3rem;
       }
     }
     .p-conoceme {
-      width: 35rem;
+      width: 45rem;
       margin-left: 3rem;
+      background-color: black;
+      color: white;
+      font-size: 1.3rem;
       .row-conoceme {
         display: flex;
 

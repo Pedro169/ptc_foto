@@ -105,6 +105,7 @@ body main .navbar-brand1 {
 body main .carrusel {
   display: flex;
   justify-content: center;
+  background-color: black;
 }
 body main .carrusel .img-index {
   width: 100%;
@@ -130,6 +131,7 @@ body main .interiorInicio {
   display: flex;
   justify-content: center;
   padding: 3rem;
+  background-color: black;
 }
 body main .interiorInicio .img-carrusel {
   padding: 1rem;
@@ -138,6 +140,7 @@ body main .interiorInicio .img-carrusel {
   margin-left: 2rem;
   border-radius: 15px;
   transition: transform 0.3s ease;
+  background-color: black;
 }
 body main .interiorInicio .img-carrusel:hover {
   transform: scale(1.2);
@@ -151,7 +154,7 @@ body main .interiorInicio h3 {
 body main .imagenFondo {
   margin: 0;
   padding: 0;
-  background-image: url("../../img/RoxanayGeral/RyG (160)H.jpg");
+  background-image: url("../../img/ptc (11).jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -171,6 +174,9 @@ body main .bienvenida {
   display: flex;
   justify-content: center;
   padding: 2rem;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
 }
 body main .bienvenida .perfil {
   padding: 1rem;
@@ -184,7 +190,8 @@ body main .bienvenida .p-bienvenida {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 25rem;
+  width: 33rem;
+  font-size: 1.5rem;
 }
 body main .bienvenida .p-bienvenida .p {
   text-align: justify;
@@ -365,6 +372,7 @@ body main .navbar-brand1 {
 body main .carrusel {
   display: flex;
   justify-content: center;
+  background-color: black;
 }
 body main .carrusel .img-index {
   width: 100%;
@@ -390,6 +398,7 @@ body main .interiorInicio {
   display: flex;
   justify-content: center;
   padding: 3rem;
+  background-color: black;
 }
 body main .interiorInicio .img-carrusel {
   padding: 1rem;
@@ -398,6 +407,7 @@ body main .interiorInicio .img-carrusel {
   margin-left: 2rem;
   border-radius: 15px;
   transition: transform 0.3s ease;
+  background-color: black;
 }
 body main .interiorInicio .img-carrusel:hover {
   transform: scale(1.2);
@@ -411,7 +421,7 @@ body main .interiorInicio h3 {
 body main .imagenFondo, body main .img-fondoBody {
   margin: 0;
   padding: 0;
-  background-image: url("../../img/RoxanayGeral/RyG (160)H.jpg");
+  background-image: url("../../img/ptc (11).jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -431,6 +441,9 @@ body main .bienvenida {
   display: flex;
   justify-content: center;
   padding: 2rem;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
 }
 body main .bienvenida .perfil {
   padding: 1rem;
@@ -444,7 +457,8 @@ body main .bienvenida .p-bienvenida {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 25rem;
+  width: 33rem;
+  font-size: 1.5rem;
 }
 body main .bienvenida .p-bienvenida .p {
   text-align: justify;
@@ -625,6 +639,7 @@ body main .navbar-brand1 {
 body main .carrusel {
   display: flex;
   justify-content: center;
+  background-color: black;
 }
 body main .carrusel .img-index {
   width: 100%;
@@ -650,6 +665,7 @@ body main .interiorInicio {
   display: flex;
   justify-content: center;
   padding: 3rem;
+  background-color: black;
 }
 body main .interiorInicio .img-carrusel {
   padding: 1rem;
@@ -658,6 +674,7 @@ body main .interiorInicio .img-carrusel {
   margin-left: 2rem;
   border-radius: 15px;
   transition: transform 0.3s ease;
+  background-color: black;
 }
 body main .interiorInicio .img-carrusel:hover {
   transform: scale(1.2);
@@ -671,7 +688,7 @@ body main .interiorInicio h3 {
 body main .imagenFondo, body main .img-fondoBody {
   margin: 0;
   padding: 0;
-  background-image: url("../../img/RoxanayGeral/RyG (160)H.jpg");
+  background-image: url("../../img/ptc (11).jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -691,6 +708,9 @@ body main .bienvenida {
   display: flex;
   justify-content: center;
   padding: 2rem;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
 }
 body main .bienvenida .perfil {
   padding: 1rem;
@@ -704,7 +724,8 @@ body main .bienvenida .p-bienvenida {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 25rem;
+  width: 33rem;
+  font-size: 1.5rem;
 }
 body main .bienvenida .p-bienvenida .p {
   text-align: justify;
@@ -1229,6 +1250,7 @@ body main .navbar-brand1 {
 body main .carrusel {
   display: flex;
   justify-content: center;
+  background-color: black;
 }
 body main .carrusel .img-index {
   width: 100%;
@@ -1254,6 +1276,7 @@ body main .interiorInicio {
   display: flex;
   justify-content: center;
   padding: 3rem;
+  background-color: black;
 }
 body main .interiorInicio .img-carrusel {
   padding: 1rem;
@@ -1262,6 +1285,7 @@ body main .interiorInicio .img-carrusel {
   margin-left: 2rem;
   border-radius: 15px;
   transition: transform 0.3s ease;
+  background-color: black;
 }
 body main .interiorInicio .img-carrusel:hover {
   transform: scale(1.2);
@@ -1275,7 +1299,7 @@ body main .interiorInicio h3 {
 body main .imagenFondo {
   margin: 0;
   padding: 0;
-  background-image: url("../../img/RoxanayGeral/RyG (160)H.jpg");
+  background-image: url("../../img/ptc (11).jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1295,6 +1319,9 @@ body main .bienvenida {
   display: flex;
   justify-content: center;
   padding: 2rem;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
 }
 body main .bienvenida .perfil {
   padding: 1rem;
@@ -1308,7 +1335,8 @@ body main .bienvenida .p-bienvenida {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 25rem;
+  width: 33rem;
+  font-size: 1.5rem;
 }
 body main .bienvenida .p-bienvenida .p {
   text-align: justify;
@@ -1451,7 +1479,7 @@ body footer .p-footer {
 body .imagenFondo-conoceme {
   margin: 0;
   padding: 0;
-  background-image: url("../../img/imagenFondo2.jpg");
+  background-image: url("../../img/ptc (41).jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1471,21 +1499,26 @@ body .container-conoceme {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: black;
 }
 body .container-conoceme .conoceme {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 3rem;
+  background-color: black;
 }
 body .container-conoceme .conoceme .img-about {
-  width: 20rem;
+  width: 35rem;
   border-radius: 50%;
   margin-left: 3rem;
 }
 body .container-conoceme .p-conoceme {
-  width: 35rem;
+  width: 45rem;
   margin-left: 3rem;
+  background-color: black;
+  color: white;
+  font-size: 1.3rem;
 }
 body .container-conoceme .p-conoceme .row-conoceme {
   display: flex;
@@ -1583,6 +1616,7 @@ body main .navbar-brand1 {
 body main .carrusel {
   display: flex;
   justify-content: center;
+  background-color: black;
 }
 body main .carrusel .img-index {
   width: 100%;
@@ -1608,6 +1642,7 @@ body main .interiorInicio {
   display: flex;
   justify-content: center;
   padding: 3rem;
+  background-color: black;
 }
 body main .interiorInicio .img-carrusel {
   padding: 1rem;
@@ -1616,6 +1651,7 @@ body main .interiorInicio .img-carrusel {
   margin-left: 2rem;
   border-radius: 15px;
   transition: transform 0.3s ease;
+  background-color: black;
 }
 body main .interiorInicio .img-carrusel:hover {
   transform: scale(1.2);
@@ -1629,7 +1665,7 @@ body main .interiorInicio h3 {
 body main .imagenFondo {
   margin: 0;
   padding: 0;
-  background-image: url("../../img/RoxanayGeral/RyG (160)H.jpg");
+  background-image: url("../../img/ptc (11).jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1649,6 +1685,9 @@ body main .bienvenida {
   display: flex;
   justify-content: center;
   padding: 2rem;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
 }
 body main .bienvenida .perfil {
   padding: 1rem;
@@ -1662,7 +1701,8 @@ body main .bienvenida .p-bienvenida {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 25rem;
+  width: 33rem;
+  font-size: 1.5rem;
 }
 body main .bienvenida .p-bienvenida .p {
   text-align: justify;
@@ -2087,6 +2127,7 @@ body main .navbar-brand1 {
 body main .carrusel {
   display: flex;
   justify-content: center;
+  background-color: black;
 }
 body main .carrusel .img-index {
   width: 100%;
@@ -2112,6 +2153,7 @@ body main .interiorInicio {
   display: flex;
   justify-content: center;
   padding: 3rem;
+  background-color: black;
 }
 body main .interiorInicio .img-carrusel {
   padding: 1rem;
@@ -2120,6 +2162,7 @@ body main .interiorInicio .img-carrusel {
   margin-left: 2rem;
   border-radius: 15px;
   transition: transform 0.3s ease;
+  background-color: black;
 }
 body main .interiorInicio .img-carrusel:hover {
   transform: scale(1.2);
@@ -2133,7 +2176,7 @@ body main .interiorInicio h3 {
 body main .imagenFondo {
   margin: 0;
   padding: 0;
-  background-image: url("../../img/RoxanayGeral/RyG (160)H.jpg");
+  background-image: url("../../img/ptc (11).jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2153,6 +2196,9 @@ body main .bienvenida {
   display: flex;
   justify-content: center;
   padding: 2rem;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
 }
 body main .bienvenida .perfil {
   padding: 1rem;
@@ -2166,7 +2212,8 @@ body main .bienvenida .p-bienvenida {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 25rem;
+  width: 33rem;
+  font-size: 1.5rem;
 }
 body main .bienvenida .p-bienvenida .p {
   text-align: justify;
@@ -2441,6 +2488,7 @@ body main .navbar-brand1 {
 body main .carrusel {
   display: flex;
   justify-content: center;
+  background-color: black;
 }
 body main .carrusel .img-index {
   width: 100%;
@@ -2466,6 +2514,7 @@ body main .interiorInicio {
   display: flex;
   justify-content: center;
   padding: 3rem;
+  background-color: black;
 }
 body main .interiorInicio .img-carrusel {
   padding: 1rem;
@@ -2474,6 +2523,7 @@ body main .interiorInicio .img-carrusel {
   margin-left: 2rem;
   border-radius: 15px;
   transition: transform 0.3s ease;
+  background-color: black;
 }
 body main .interiorInicio .img-carrusel:hover {
   transform: scale(1.2);
@@ -2487,7 +2537,7 @@ body main .interiorInicio h3 {
 body main .imagenFondo {
   margin: 0;
   padding: 0;
-  background-image: url("../../img/RoxanayGeral/RyG (160)H.jpg");
+  background-image: url("../../img/ptc (11).jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2507,6 +2557,9 @@ body main .bienvenida {
   display: flex;
   justify-content: center;
   padding: 2rem;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
 }
 body main .bienvenida .perfil {
   padding: 1rem;
@@ -2520,7 +2573,8 @@ body main .bienvenida .p-bienvenida {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 25rem;
+  width: 33rem;
+  font-size: 1.5rem;
 }
 body main .bienvenida .p-bienvenida .p {
   text-align: justify;
@@ -2701,6 +2755,7 @@ body main .navbar-brand1 {
 body main .carrusel {
   display: flex;
   justify-content: center;
+  background-color: black;
 }
 body main .carrusel .img-index {
   width: 100%;
@@ -2726,6 +2781,7 @@ body main .interiorInicio {
   display: flex;
   justify-content: center;
   padding: 3rem;
+  background-color: black;
 }
 body main .interiorInicio .img-carrusel {
   padding: 1rem;
@@ -2734,6 +2790,7 @@ body main .interiorInicio .img-carrusel {
   margin-left: 2rem;
   border-radius: 15px;
   transition: transform 0.3s ease;
+  background-color: black;
 }
 body main .interiorInicio .img-carrusel:hover {
   transform: scale(1.2);
@@ -2747,7 +2804,7 @@ body main .interiorInicio h3 {
 body main .imagenFondo {
   margin: 0;
   padding: 0;
-  background-image: url("../../img/RoxanayGeral/RyG (160)H.jpg");
+  background-image: url("../../img/ptc (11).jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2767,6 +2824,9 @@ body main .bienvenida {
   display: flex;
   justify-content: center;
   padding: 2rem;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
 }
 body main .bienvenida .perfil {
   padding: 1rem;
@@ -2780,7 +2840,8 @@ body main .bienvenida .p-bienvenida {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 25rem;
+  width: 33rem;
+  font-size: 1.5rem;
 }
 body main .bienvenida .p-bienvenida .p {
   text-align: justify;
@@ -3225,6 +3286,7 @@ body main .navbar-brand1 {
 body main .carrusel {
   display: flex;
   justify-content: center;
+  background-color: black;
 }
 body main .carrusel .img-index {
   width: 100%;
@@ -3250,6 +3312,7 @@ body main .interiorInicio {
   display: flex;
   justify-content: center;
   padding: 3rem;
+  background-color: black;
 }
 body main .interiorInicio .img-carrusel {
   padding: 1rem;
@@ -3258,6 +3321,7 @@ body main .interiorInicio .img-carrusel {
   margin-left: 2rem;
   border-radius: 15px;
   transition: transform 0.3s ease;
+  background-color: black;
 }
 body main .interiorInicio .img-carrusel:hover {
   transform: scale(1.2);
@@ -3271,7 +3335,7 @@ body main .interiorInicio h3 {
 body main .imagenFondo {
   margin: 0;
   padding: 0;
-  background-image: url("../../img/RoxanayGeral/RyG (160)H.jpg");
+  background-image: url("../../img/ptc (11).jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -3291,6 +3355,9 @@ body main .bienvenida {
   display: flex;
   justify-content: center;
   padding: 2rem;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
 }
 body main .bienvenida .perfil {
   padding: 1rem;
@@ -3304,7 +3371,8 @@ body main .bienvenida .p-bienvenida {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 25rem;
+  width: 33rem;
+  font-size: 1.5rem;
 }
 body main .bienvenida .p-bienvenida .p {
   text-align: justify;
@@ -3824,6 +3892,7 @@ body main .navbar-brand1 {
 body main .carrusel {
   display: flex;
   justify-content: center;
+  background-color: black;
 }
 body main .carrusel .img-index {
   width: 100%;
@@ -3849,6 +3918,7 @@ body main .interiorInicio {
   display: flex;
   justify-content: center;
   padding: 3rem;
+  background-color: black;
 }
 body main .interiorInicio .img-carrusel {
   padding: 1rem;
@@ -3857,6 +3927,7 @@ body main .interiorInicio .img-carrusel {
   margin-left: 2rem;
   border-radius: 15px;
   transition: transform 0.3s ease;
+  background-color: black;
 }
 body main .interiorInicio .img-carrusel:hover {
   transform: scale(1.2);
@@ -3870,7 +3941,7 @@ body main .interiorInicio h3 {
 body main .imagenFondo {
   margin: 0;
   padding: 0;
-  background-image: url("../../img/RoxanayGeral/RyG (160)H.jpg");
+  background-image: url("../../img/ptc (11).jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -3890,6 +3961,9 @@ body main .bienvenida {
   display: flex;
   justify-content: center;
   padding: 2rem;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
 }
 body main .bienvenida .perfil {
   padding: 1rem;
@@ -3903,7 +3977,8 @@ body main .bienvenida .p-bienvenida {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 25rem;
+  width: 33rem;
+  font-size: 1.5rem;
 }
 body main .bienvenida .p-bienvenida .p {
   text-align: justify;
@@ -4278,6 +4353,7 @@ body main .navbar-brand1 {
 body main .carrusel {
   display: flex;
   justify-content: center;
+  background-color: black;
 }
 body main .carrusel .img-index {
   width: 100%;
@@ -4303,6 +4379,7 @@ body main .interiorInicio {
   display: flex;
   justify-content: center;
   padding: 3rem;
+  background-color: black;
 }
 body main .interiorInicio .img-carrusel {
   padding: 1rem;
@@ -4311,6 +4388,7 @@ body main .interiorInicio .img-carrusel {
   margin-left: 2rem;
   border-radius: 15px;
   transition: transform 0.3s ease;
+  background-color: black;
 }
 body main .interiorInicio .img-carrusel:hover {
   transform: scale(1.2);
@@ -4324,7 +4402,7 @@ body main .interiorInicio h3 {
 body main .imagenFondo {
   margin: 0;
   padding: 0;
-  background-image: url("../../img/RoxanayGeral/RyG (160)H.jpg");
+  background-image: url("../../img/ptc (11).jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -4344,6 +4422,9 @@ body main .bienvenida {
   display: flex;
   justify-content: center;
   padding: 2rem;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
 }
 body main .bienvenida .perfil {
   padding: 1rem;
@@ -4357,7 +4438,8 @@ body main .bienvenida .p-bienvenida {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 25rem;
+  width: 33rem;
+  font-size: 1.5rem;
 }
 body main .bienvenida .p-bienvenida .p {
   text-align: justify;
