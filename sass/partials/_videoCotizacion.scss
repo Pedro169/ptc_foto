@@ -2,10 +2,11 @@
 @import "./inicio";
 
 body {
+  background-color: black;
   .imagenFondo-cotizacion{
     margin: 0;
     padding: 0;
-    background-image: url("../../img/perfil.jpg");
+    background-image: url("../../img/GALERIA.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -33,14 +34,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    color: white;
  
     .cotizacion {
       display: flex;
       justify-content: center;
       align-items: center;
       padding: 3rem;
+      background-color: black;
       .img-about {
-        width: 20rem;
+        width: 40rem;
         border-radius: 50%;
         margin-left: 3rem;
       }
@@ -48,6 +52,7 @@ body {
     .p-cotizacion{
       width: 35rem;
       margin-left: 3rem;
+      background-color: black;
       .row-cotizacion {
         display: flex;
         p {
@@ -85,7 +90,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 4rem;
-    background-color: white;
+    background-color: black;
     .imagen{
       display: flex;
       width: 1070px;
@@ -185,7 +190,7 @@ body {
       }
       .divBoton{
         display: flex;
-        padding: 2rem;
+        padding: 1rem;
         position: relative;
         right: 10rem;;
        
@@ -195,7 +200,7 @@ body {
           text-decoration: none;
           font-family: $Dancing;
           font-size: 1.5rem;
-          padding: 0.2rem 2rem;
+          padding: 0.2rem 6rem;
           border: solid 1px black;
           border-radius: 0.5rem;      
           &:hover {

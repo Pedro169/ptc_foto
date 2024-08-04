@@ -2,10 +2,11 @@
 @import "./inicio";
 
 body {
+  background-color: black;
   .imagenFondo-cotizacion2{
     margin: 0;
     padding: 0;
-    background-image: url("../../img/horizontal15.jpg");
+    background-image: url("../../img/footer2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -37,6 +38,27 @@ body {
     font-family: $Dancing
     
   }
+  .tituloPagina{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    div{
+      display: flex;
+      .logoLetras{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        height: auto;
+      }
+      .dueñoPyme{
+        width: 50rem;
+        height: 35rem;
+      }
+    }
+    
+  } 
   .container-cotizacion {
     display: flex;
     justify-content: center;
@@ -98,16 +120,25 @@ body {
       .puntoNone {
           list-style-type: none;        
       }
-      
+            
     }
-    .imgPresupuesto1{
-      width: 20rem;
+    .imgPresupuesto6{
+      width: 47rem;
       height: 30rem;
       position: relative;
       top: 1.5rem;
-      left: 6rem;
+      left: 3rem;
       box-shadow: 0.2px 0.2px 10px white;
     }
+    .imgPresupuesto1{
+      width: 47rem;
+      height: 30rem;
+      position: relative;
+      top: 1.5rem;
+      right:2rem;
+      box-shadow: 0.2px 0.2px 10px white;
+    }
+
   }
   .container-cotizacion3{
     display: flex;
@@ -117,17 +148,26 @@ body {
     background-color: white;
     .imagen{
       display: flex;
-      width: 1070px;
+      width: 10800px;
       height: 720px;
-      box-shadow: 0.2px 0.2px 10px black;
+      box-shadow: 0.2px 0.2px 10px white;
     }
     .presupuesto2{
+      background-color: black;
       display: flex;
       align-items: center;
       font-size: 1.5rem;
       flex-direction: column;
-      color: black;
+      color: white;
       padding: 1rem;
+      .imgPresupuesto2{
+        width: 80rem;
+        height: auto;
+        position: relative;
+        top: 1.5rem;
+        right:2rem;
+        box-shadow: 0.2px 0.2px 10px white;
+      }
       .titulo2{
         padding: 1rem;
       }
@@ -154,7 +194,7 @@ body {
     
       .imgPresupuesto4{
         width: 720px;
-        height: 450px;
+        height: auto;
         box-shadow: 0.2px 0.2px 10px white;
       }
       .titulo2{
@@ -177,6 +217,7 @@ body {
 }
 @media (max-width: $tablet) {
   body {
+    background-color: black;
     main {
       .imagenFondo-cotizacion {
         background-position: center;
@@ -255,7 +296,8 @@ body {
         justify-content: center;
         align-items: center;
         padding: 4rem;
-        background-color: white;
+        background-color:black;
+        color: white;
         .imagen{
           display: flex;
           width: 340px;
@@ -269,7 +311,7 @@ body {
           align-items: center;
           font-size: 1.5rem;
           flex-direction: column;
-          color: black;
+          color: white;
           padding: 1rem;
           .titulo2{
             padding: 1rem;
