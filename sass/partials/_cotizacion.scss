@@ -30,14 +30,17 @@ body {
     margin-bottom: 1rem;
     font-weight: bold;
   }
-  .p2{
-    display: flex;
+  .valor{
     position: relative;
-    font-size: 2rem;
-    text-align: right;
-    font-family: $Dancing
-    
-  }
+    left: 22rem;
+    top: 2rem;
+    .p2{
+      display: flex;    
+      font-size: 2.2rem;
+      text-align: right;
+      font-family: $Dancing;      
+    }
+  } 
   .tituloPagina{
     display: flex;
     flex-direction: column;
@@ -118,7 +121,7 @@ body {
         height: 1px;
       }
       .puntoNone {
-          list-style-type: none;        
+          list-style: none;        
       }
             
     }
@@ -146,13 +149,11 @@ body {
     align-items: center;
     padding: 4rem;
     background-color: white;
-    .imagen{
-      display: flex;
-      width: 10800px;
-      height: 720px;
-      box-shadow: 0.2px 0.2px 10px white;
-    }
-    .presupuesto2{
+    ul{
+      list-style-type: none;
+    } 
+    
+      .presupuesto2{
       background-color: black;
       display: flex;
       align-items: center;
@@ -160,15 +161,17 @@ body {
       flex-direction: column;
       color: white;
       padding: 1rem;
-      .imgPresupuesto2{
-        width: 80rem;
-        height: auto;
-        position: relative;
-        top: 1.5rem;
-        right:2rem;
-        box-shadow: 0.2px 0.2px 10px white;
-      }
-      .titulo2{
+      div{
+        .imgPresupuesto2{
+          width: 80rem;
+          height: auto;
+          position: relative;
+          top: 1.5rem;
+          right:2rem;
+          box-shadow: 0.2px 0.2px 10px white;
+        }
+      }     
+       .titulo2{
         padding: 1rem;
       }
       .divisor2{
@@ -190,8 +193,15 @@ body {
       font-size: 1.5rem;
       flex-direction: column;
       color: white;
-      padding: 4rem;
-    
+      padding: 2rem;  
+      .valor1{
+        position:relative;
+        left: 10rem;
+        .p2{
+          font-family: $Dancing;
+          font-size: 2.2rem;
+        }
+      }    
       .imgPresupuesto4{
         width: 720px;
         height: auto;
@@ -201,7 +211,7 @@ body {
         padding: 1rem;
       }
       .divisor2{
-        background-color: black;
+        background-color: white;
         width: 20rem;
         height: 1px;
       }
@@ -212,194 +222,254 @@ body {
        align-items: center;
        padding: 4rem;
        background-color: black; 
+       ul{
+        list-style-type: none;
+       }
     }
   }
 }
 @media (max-width: $tablet) {
   body {
-    background-color: black;
-    main {
-      .imagenFondo-cotizacion {
-        background-position: center;
-      }
-      .container-cotizacion {
-        display: flex;
-        justify-content: center;
-        align-items: center; 
     
-        .cotizacion {
+    background-color: black;
+    .imagenFondo-cotizacion2{
+      margin: 0;
+      padding: 0;
+      background-image: url("../../img/footer2.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: Arial, sans-serif;
+      color: #333;
+      width: auto;
+      height: 100vh;
+      display: flex;
+      justify-content: Center;
+      align-items: center;
+      .fuente2 {
+        color: white;
+        text-shadow: 2px 2px 5px rgba(10, 0, 0, 0.925);
+      }
+    }
+    h4{
+      font-size: 1rem;
+      font-family: $Dancing;
+      text-align: center;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      font-weight: bold;
+    }
+    .valor{
+      position: relative;
+      left: 12rem;
+      top: 0.5rem;
+      .p2{
+        display: flex;    
+        font-size: 1.5rem;
+        text-align: right;
+        font-family: $Dancing;      
+      }
+    } 
+    .tituloPagina{
+      display: flex;
+      flex-direction: column;
+      background-color: black;
+      color: white;
+      font-size: 2rem;
+      div{
+        display: flex;
+        flex-direction: column;
+        .logoLetras{
           display: flex;
           justify-content: center;
-          align-items: center;
-          padding: 3rem;
-          .img-about {
-            width: 20rem;
-            border-radius: 50%;
-            margin-left: 3rem;
-          }
-        }
-        .p-cotizacion{
-          width: 35rem;
-          margin-left: 3rem;
-          .row-cotizacion {
-            display: flex;
-    
-            p {
-              text-align: justify;
-              font-family: $Playfair;
-            }
-            span {
-              font-weight: bold;
-              font-size: 2.5rem;
-              font-family: $Dancing;
-            }
-          }
-        }
-      }
-      .container-cotizacion2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 4rem;
-        background-color: black;
-        .video{
-          display: flex;
-    
-        }
-        .presupuesto1{
-          display: flex;
-          font-size: 1.5rem;
-          flex-direction: column;
-          color: white;
-          padding: 1rem;
-          .titulo{
-            padding: 1rem;
-          }
-          .divisor{
-            background-color: white;
-            width: 20rem;
-            height: 1px;
-          }
-          
-        }
-        .imgPresupuesto1{
-          width: 20rem;
+          width: 30rem;
           height: 30rem;
           position: relative;
-          top: 1.5rem;
-          left: 0.5rem;
-          box-shadow: 0.2px 0.2px 10px white;
+          bottom: -4rem;
+        }
+        .dueñoPyme{
+          width: 100%;
+          height: auto;
+          position: relative;
+          bottom: -2rem;
         }
       }
-      .container-cotizacion3{
+    } 
+    .container-cotizacion {
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      ul{
+        padding: 2rem;
+        width: 100%;
+        height: auto;
+        li{
+          font-size: 1.3rem;
+        }
+      }     
+      .cotizacion {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 4rem;
-        background-color:black;
-        color: white;
-        .imagen{
-          display: flex;
-          width: 340px;
-          height: 240px;
-          position: relative;
-          right:0.8rem;
-          box-shadow: 0.2px 0.2px 10px black;
+        padding: 3rem;
+        .img-about {
+          width: 20rem;
+          border-radius: 50%;
+          margin-left: 3rem;
         }
-        .presupuesto2{
-          display: flex;
-          align-items: center;
-          font-size: 1.5rem;
-          flex-direction: column;
-          color: white;
-          padding: 1rem;
-          .titulo2{
-            padding: 1rem;
+      }
+      .p-cotizacion{
+        width: 35rem;
+        margin-left: 3rem;
+        .row-cotizacion {
+          display: flex;  
+          p {
+            text-align: justify;
+            font-family: $Playfair;
           }
-          .divisor2{
-            background-color: black;
-            width: 20rem;
-            height: 1px;
+          span {
+            font-weight: bold;
+            font-size: 2.5rem;
+            font-family: $Dancing;
           }
         }
       }
-      .container-cotizacion4{
+    }
+    .container-cotizacion2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 4rem;
+      background-color: black;
+      .video{
         display: flex;
-       justify-content: center;
-        align-items: center;
-        
-        background-color: black; 
-        .presupuesto4{
-          display: flex;
-          align-items: center;
-          font-size: 1.5rem;
-          flex-direction: column;
-          color: white;
+  
+      }
+      .presupuesto1{
+        display: flex;
+        font-size: 1.5rem;
+        flex-direction: column;
+        color: white;
+        padding: 1rem;
+        .titulo{
           padding: 1rem;
-        
-          .imgPresupuesto4{
-            width: 320px;
-            height: 220px;
+        }
+        .divisor{
+          background-color: white;
+          width: 20rem;
+          height: 1px;
+        }
+        .puntoNone {
+            list-style: none;        
+        }
+              
+      }
+      .imgPresupuesto6{
+        width: 20rem;
+        height: 12rem;
+        position: relative;
+        top: 1.5rem;
+        left: 0.5rem;
+        box-shadow: 0.2px 0.2px 10px white;
+      }
+      .imgPresupuesto1{
+        width: 20rem;
+        height: 12rem;
+        position: relative;
+        top: -5rem;
+        right:-0.5rem;
+        box-shadow: 0.2px 0.2px 10px white;
+      }
+  
+    }
+    .container-cotizacion3{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 4rem;
+      background-color: white;
+      ul{
+        list-style-type: none;
+      }
+      .imagen{
+        display: flex;      
+        box-shadow: 0.2px 0.2px 10px white;
+      }
+      .presupuesto2{
+        background-color: black;
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+        flex-direction: column;
+        color: white;
+        padding: 1rem;
+        div{
+          .imgPresupuesto2{
+            position: relative;
+            left: 0.2rem;
+            width: 20rem;
+            height: auto;
+            position: relative;
+            top: 1.5rem;
+            right:2rem;
             box-shadow: 0.2px 0.2px 10px white;
           }
-          .titulo2{
-            padding: 1rem;
-          }
-          .divisor2{
-            background-color: black;
-            width: 20rem;
-            height: 1px;
-          }
+        }   
+        .titulo2{
+          padding: 1rem;
         }
-        .container-cotizacion5{
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-           align-items: center;
-           padding: 4rem;
-           background-color: black; 
+        .divisor2{
+          background-color: black;
+          width: 20rem;
+          height: 1px;
         }
       }
-      .container-cotizacion {
+    }
+    .container-cotizacion4{
+      display: flex;
+      flex-direction: column;
+     justify-content: center;
+      align-items: center;      
+      background-color: black; 
+      .presupuesto4{
+        display: flex;        
+        align-items: center;
+        font-size: 1.5rem;
         flex-direction: column;
-        width: 100%;
-        height: auto;
-        .cotizacion{
-          width: 100%;
-          text-align: center;
-          margin-right: 2rem;
-          .img-about {
-            width: 100%;
-            text-align: center;
+        color: white;
+        padding: 2rem;  
+        .valor1{
+          position:relative;
+          left: 10rem;
+          .p2{
+            font-family: $Dancing;
+            font-size: 2.5rem;
           }
+        }    
+        .imgPresupuesto4{
+          width: 320px;
+          height: auto;
+          box-shadow: 0.2px 0.2px 10px white;
         }
-        .p-cotizacion {
-          width: 100%;
+        .titulo2{
           padding: 1rem;
-          font-size: 1rem;
-          justify-content: center;
-          align-items: center;
-          margin-left: 0rem;
-          .row-cotizacion {
-            article {
-              div {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                width: 100%;
-                p {
-                  width: 100%;
-                  font-size: 1rem;
-                  padding: 0.4rem;
-                  span {
-                    font-size: 2rem;
-                  }
-                }
-              }
-            }
-          }
         }
+        .divisor2{
+          background-color: white;
+          width: 20rem;
+          height: 1px;
+        }
+      }
+      .container-cotizacion5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         align-items: center;
+         padding: 4rem;
+         background-color: black; 
+         ul{
+          list-style-type: none;
+         }
       }
     }
   }

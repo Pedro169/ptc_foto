@@ -3552,10 +3552,14 @@ body h4 {
   margin-bottom: 1rem;
   font-weight: bold;
 }
-body .p2 {
-  display: flex;
+body .valor {
   position: relative;
-  font-size: 2rem;
+  left: 22rem;
+  top: 2rem;
+}
+body .valor .p2 {
+  display: flex;
+  font-size: 2.2rem;
   text-align: right;
   font-family: "Dancing Script", cursive;
 }
@@ -3637,7 +3641,7 @@ body .container-cotizacion2 .presupuesto1 .divisor {
   height: 1px;
 }
 body .container-cotizacion2 .presupuesto1 .puntoNone {
-  list-style-type: none;
+  list-style: none;
 }
 body .container-cotizacion2 .imgPresupuesto6 {
   width: 47rem;
@@ -3662,11 +3666,8 @@ body .container-cotizacion3 {
   padding: 4rem;
   background-color: white;
 }
-body .container-cotizacion3 .imagen {
-  display: flex;
-  width: 10800px;
-  height: 720px;
-  box-shadow: 0.2px 0.2px 10px white;
+body .container-cotizacion3 ul {
+  list-style-type: none;
 }
 body .container-cotizacion3 .presupuesto2 {
   background-color: black;
@@ -3677,7 +3678,7 @@ body .container-cotizacion3 .presupuesto2 {
   color: white;
   padding: 1rem;
 }
-body .container-cotizacion3 .presupuesto2 .imgPresupuesto2 {
+body .container-cotizacion3 .presupuesto2 div .imgPresupuesto2 {
   width: 80rem;
   height: auto;
   position: relative;
@@ -3705,7 +3706,15 @@ body .container-cotizacion4 .presupuesto4 {
   font-size: 1.5rem;
   flex-direction: column;
   color: white;
-  padding: 4rem;
+  padding: 2rem;
+}
+body .container-cotizacion4 .presupuesto4 .valor1 {
+  position: relative;
+  left: 10rem;
+}
+body .container-cotizacion4 .presupuesto4 .valor1 .p2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.2rem;
 }
 body .container-cotizacion4 .presupuesto4 .imgPresupuesto4 {
   width: 720px;
@@ -3716,7 +3725,7 @@ body .container-cotizacion4 .presupuesto4 .titulo2 {
   padding: 1rem;
 }
 body .container-cotizacion4 .presupuesto4 .divisor2 {
-  background-color: black;
+  background-color: white;
   width: 20rem;
   height: 1px;
 }
@@ -3727,139 +3736,239 @@ body .container-cotizacion4 .container-cotizacion5 {
   padding: 4rem;
   background-color: black;
 }
+body .container-cotizacion4 .container-cotizacion5 ul {
+  list-style-type: none;
+}
 
 @media (max-width: 990px) {
   body {
     background-color: black;
   }
-  body main .imagenFondo-cotizacion {
-    background-position: center;
+  body .imagenFondo-cotizacion2 {
+    margin: 0;
+    padding: 0;
+    background-image: url("../../img/footer2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #333;
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: Center;
+    align-items: center;
   }
-  body main .container-cotizacion {
+  body .imagenFondo-cotizacion2 .fuente2 {
+    color: white;
+    text-shadow: 2px 2px 5px rgba(10, 0, 0, 0.925);
+  }
+  body h4 {
+    font-size: 1rem;
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  body .valor {
+    position: relative;
+    left: 12rem;
+    top: 0.5rem;
+  }
+  body .valor .p2 {
+    display: flex;
+    font-size: 1.5rem;
+    text-align: right;
+    font-family: "Dancing Script", cursive;
+  }
+  body .tituloPagina {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+  }
+  body .tituloPagina div {
+    display: flex;
+    flex-direction: column;
+  }
+  body .tituloPagina div .logoLetras {
+    display: flex;
+    justify-content: center;
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+    bottom: -4rem;
+  }
+  body .tituloPagina div .dueñoPyme {
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: -2rem;
+  }
+  body .container-cotizacion {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  body main .container-cotizacion .cotizacion {
+  body .container-cotizacion ul {
+    padding: 2rem;
+    width: 100%;
+    height: auto;
+  }
+  body .container-cotizacion ul li {
+    font-size: 1.3rem;
+  }
+  body .container-cotizacion .cotizacion {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 3rem;
   }
-  body main .container-cotizacion .cotizacion .img-about {
+  body .container-cotizacion .cotizacion .img-about {
     width: 20rem;
     border-radius: 50%;
     margin-left: 3rem;
   }
-  body main .container-cotizacion .p-cotizacion {
+  body .container-cotizacion .p-cotizacion {
     width: 35rem;
     margin-left: 3rem;
   }
-  body main .container-cotizacion .p-cotizacion .row-cotizacion {
+  body .container-cotizacion .p-cotizacion .row-cotizacion {
     display: flex;
   }
-  body main .container-cotizacion .p-cotizacion .row-cotizacion p {
+  body .container-cotizacion .p-cotizacion .row-cotizacion p {
     text-align: justify;
     font-family: "Playfair Display", serif;
   }
-  body main .container-cotizacion .p-cotizacion .row-cotizacion span {
+  body .container-cotizacion .p-cotizacion .row-cotizacion span {
     font-weight: bold;
     font-size: 2.5rem;
     font-family: "Dancing Script", cursive;
   }
-  body main .container-cotizacion2 {
+  body .container-cotizacion2 {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 4rem;
     background-color: black;
   }
-  body main .container-cotizacion2 .video {
+  body .container-cotizacion2 .video {
     display: flex;
   }
-  body main .container-cotizacion2 .presupuesto1 {
+  body .container-cotizacion2 .presupuesto1 {
     display: flex;
     font-size: 1.5rem;
     flex-direction: column;
     color: white;
     padding: 1rem;
   }
-  body main .container-cotizacion2 .presupuesto1 .titulo {
+  body .container-cotizacion2 .presupuesto1 .titulo {
     padding: 1rem;
   }
-  body main .container-cotizacion2 .presupuesto1 .divisor {
+  body .container-cotizacion2 .presupuesto1 .divisor {
     background-color: white;
     width: 20rem;
     height: 1px;
   }
-  body main .container-cotizacion2 .imgPresupuesto1 {
+  body .container-cotizacion2 .presupuesto1 .puntoNone {
+    list-style: none;
+  }
+  body .container-cotizacion2 .imgPresupuesto6 {
     width: 20rem;
-    height: 30rem;
+    height: 12rem;
     position: relative;
     top: 1.5rem;
     left: 0.5rem;
     box-shadow: 0.2px 0.2px 10px white;
   }
-  body main .container-cotizacion3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 4rem;
-    background-color: black;
-    color: white;
-  }
-  body main .container-cotizacion3 .imagen {
-    display: flex;
-    width: 340px;
-    height: 240px;
-    position: relative;
-    right: 0.8rem;
-    box-shadow: 0.2px 0.2px 10px black;
-  }
-  body main .container-cotizacion3 .presupuesto2 {
-    display: flex;
-    align-items: center;
-    font-size: 1.5rem;
-    flex-direction: column;
-    color: white;
-    padding: 1rem;
-  }
-  body main .container-cotizacion3 .presupuesto2 .titulo2 {
-    padding: 1rem;
-  }
-  body main .container-cotizacion3 .presupuesto2 .divisor2 {
-    background-color: black;
+  body .container-cotizacion2 .imgPresupuesto1 {
     width: 20rem;
-    height: 1px;
-  }
-  body main .container-cotizacion4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-  }
-  body main .container-cotizacion4 .presupuesto4 {
-    display: flex;
-    align-items: center;
-    font-size: 1.5rem;
-    flex-direction: column;
-    color: white;
-    padding: 1rem;
-  }
-  body main .container-cotizacion4 .presupuesto4 .imgPresupuesto4 {
-    width: 320px;
-    height: 220px;
+    height: 12rem;
+    position: relative;
+    top: -5rem;
+    right: -0.5rem;
     box-shadow: 0.2px 0.2px 10px white;
   }
-  body main .container-cotizacion4 .presupuesto4 .titulo2 {
+  body .container-cotizacion3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    background-color: white;
+  }
+  body .container-cotizacion3 ul {
+    list-style-type: none;
+  }
+  body .container-cotizacion3 .imagen {
+    display: flex;
+    box-shadow: 0.2px 0.2px 10px white;
+  }
+  body .container-cotizacion3 .presupuesto2 {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    flex-direction: column;
+    color: white;
     padding: 1rem;
   }
-  body main .container-cotizacion4 .presupuesto4 .divisor2 {
+  body .container-cotizacion3 .presupuesto2 div .imgPresupuesto2 {
+    position: relative;
+    left: 0.2rem;
+    width: 20rem;
+    height: auto;
+    position: relative;
+    top: 1.5rem;
+    right: 2rem;
+    box-shadow: 0.2px 0.2px 10px white;
+  }
+  body .container-cotizacion3 .presupuesto2 .titulo2 {
+    padding: 1rem;
+  }
+  body .container-cotizacion3 .presupuesto2 .divisor2 {
     background-color: black;
     width: 20rem;
     height: 1px;
   }
-  body main .container-cotizacion4 .container-cotizacion5 {
+  body .container-cotizacion4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  body .container-cotizacion4 .presupuesto4 {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    flex-direction: column;
+    color: white;
+    padding: 2rem;
+  }
+  body .container-cotizacion4 .presupuesto4 .valor1 {
+    position: relative;
+    left: 10rem;
+  }
+  body .container-cotizacion4 .presupuesto4 .valor1 .p2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 2.5rem;
+  }
+  body .container-cotizacion4 .presupuesto4 .imgPresupuesto4 {
+    width: 320px;
+    height: auto;
+    box-shadow: 0.2px 0.2px 10px white;
+  }
+  body .container-cotizacion4 .presupuesto4 .titulo2 {
+    padding: 1rem;
+  }
+  body .container-cotizacion4 .presupuesto4 .divisor2 {
+    background-color: white;
+    width: 20rem;
+    height: 1px;
+  }
+  body .container-cotizacion4 .container-cotizacion5 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -3867,42 +3976,8 @@ body .container-cotizacion4 .container-cotizacion5 {
     padding: 4rem;
     background-color: black;
   }
-  body main .container-cotizacion {
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-  }
-  body main .container-cotizacion .cotizacion {
-    width: 100%;
-    text-align: center;
-    margin-right: 2rem;
-  }
-  body main .container-cotizacion .cotizacion .img-about {
-    width: 100%;
-    text-align: center;
-  }
-  body main .container-cotizacion .p-cotizacion {
-    width: 100%;
-    padding: 1rem;
-    font-size: 1rem;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0rem;
-  }
-  body main .container-cotizacion .p-cotizacion .row-cotizacion article div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-  body main .container-cotizacion .p-cotizacion .row-cotizacion article div p {
-    width: 100%;
-    font-size: 1rem;
-    padding: 0.4rem;
-  }
-  body main .container-cotizacion .p-cotizacion .row-cotizacion article div p span {
-    font-size: 2rem;
+  body .container-cotizacion4 .container-cotizacion5 ul {
+    list-style-type: none;
   }
 }
 * {
