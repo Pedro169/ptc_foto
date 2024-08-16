@@ -113,12 +113,13 @@ body main .carrusel .img-index {
   height: auto;
 }
 body main .carrusel .logo {
-  width: 95px;
-  height: 67px;
+  width: 80px;
+  height: auto;
   background-size: cover;
   position: fixed;
-  bottom: 1rem;
+  bottom: 0.8rem;
   right: 0.5rem;
+  border-radius: 2.5rem;
 }
 body main .carrusel .logo1 {
   width: 80px;
@@ -274,12 +275,13 @@ body footer .p-footer {
     height: auto;
   }
   body main .carrusel .logo {
-    width: 65px;
-    height: 50px;
+    width: 50px;
+    height: auto;
     background-size: cover;
     position: fixed;
     bottom: 0.9rem;
-    right: 0.5rem;
+    right: 0.9rem;
+    border-radius: 2.5rem;
   }
   body main .carrusel .logo1 {
     width: 50px;
@@ -381,12 +383,13 @@ body main .carrusel .img-index {
   height: auto;
 }
 body main .carrusel .logo {
-  width: 95px;
-  height: 67px;
+  width: 80px;
+  height: auto;
   background-size: cover;
   position: fixed;
-  bottom: 1rem;
+  bottom: 0.8rem;
   right: 0.5rem;
+  border-radius: 2.5rem;
 }
 body main .carrusel .logo1 {
   width: 80px;
@@ -542,12 +545,13 @@ body footer .p-footer {
     height: auto;
   }
   body main .carrusel .logo {
-    width: 65px;
-    height: 50px;
+    width: 50px;
+    height: auto;
     background-size: cover;
     position: fixed;
     bottom: 0.9rem;
-    right: 0.5rem;
+    right: 0.9rem;
+    border-radius: 2.5rem;
   }
   body main .carrusel .logo1 {
     width: 50px;
@@ -649,12 +653,13 @@ body main .carrusel .img-index {
   height: auto;
 }
 body main .carrusel .logo {
-  width: 95px;
-  height: 67px;
+  width: 80px;
+  height: auto;
   background-size: cover;
   position: fixed;
-  bottom: 1rem;
+  bottom: 0.8rem;
   right: 0.5rem;
+  border-radius: 2.5rem;
 }
 body main .carrusel .logo1 {
   width: 80px;
@@ -810,12 +815,13 @@ body footer .p-footer {
     height: auto;
   }
   body main .carrusel .logo {
-    width: 65px;
-    height: 50px;
+    width: 50px;
+    height: auto;
     background-size: cover;
     position: fixed;
     bottom: 0.9rem;
-    right: 0.5rem;
+    right: 0.9rem;
+    border-radius: 2.5rem;
   }
   body main .carrusel .logo1 {
     width: 50px;
@@ -1261,12 +1267,13 @@ body main .carrusel .img-index {
   height: auto;
 }
 body main .carrusel .logo {
-  width: 95px;
-  height: 67px;
+  width: 80px;
+  height: auto;
   background-size: cover;
   position: fixed;
-  bottom: 1rem;
+  bottom: 0.8rem;
   right: 0.5rem;
+  border-radius: 2.5rem;
 }
 body main .carrusel .logo1 {
   width: 80px;
@@ -1422,12 +1429,13 @@ body footer .p-footer {
     height: auto;
   }
   body main .carrusel .logo {
-    width: 65px;
-    height: 50px;
+    width: 50px;
+    height: auto;
     background-size: cover;
     position: fixed;
     bottom: 0.9rem;
-    right: 0.5rem;
+    right: 0.9rem;
+    border-radius: 2.5rem;
   }
   body main .carrusel .logo1 {
     width: 50px;
@@ -1628,12 +1636,13 @@ body main .carrusel .img-index {
   height: auto;
 }
 body main .carrusel .logo {
-  width: 95px;
-  height: 67px;
+  width: 80px;
+  height: auto;
   background-size: cover;
   position: fixed;
-  bottom: 1rem;
+  bottom: 0.8rem;
   right: 0.5rem;
+  border-radius: 2.5rem;
 }
 body main .carrusel .logo1 {
   width: 80px;
@@ -1789,12 +1798,13 @@ body footer .p-footer {
     height: auto;
   }
   body main .carrusel .logo {
-    width: 65px;
-    height: 50px;
+    width: 50px;
+    height: auto;
     background-size: cover;
     position: fixed;
     bottom: 0.9rem;
-    right: 0.5rem;
+    right: 0.9rem;
+    border-radius: 2.5rem;
   }
   body main .carrusel .logo1 {
     width: 50px;
@@ -2140,12 +2150,13 @@ body main .carrusel .img-index {
   height: auto;
 }
 body main .carrusel .logo {
-  width: 95px;
-  height: 67px;
+  width: 80px;
+  height: auto;
   background-size: cover;
   position: fixed;
-  bottom: 1rem;
+  bottom: 0.8rem;
   right: 0.5rem;
+  border-radius: 2.5rem;
 }
 body main .carrusel .logo1 {
   width: 80px;
@@ -2301,12 +2312,13 @@ body footer .p-footer {
     height: auto;
   }
   body main .carrusel .logo {
-    width: 65px;
-    height: 50px;
+    width: 50px;
+    height: auto;
     background-size: cover;
     position: fixed;
     bottom: 0.9rem;
-    right: 0.5rem;
+    right: 0.9rem;
+    border-radius: 2.5rem;
   }
   body main .carrusel .logo1 {
     width: 50px;
@@ -2502,12 +2514,13 @@ body main .carrusel .img-index {
   height: auto;
 }
 body main .carrusel .logo {
-  width: 95px;
-  height: 67px;
+  width: 80px;
+  height: auto;
   background-size: cover;
   position: fixed;
-  bottom: 1rem;
+  bottom: 0.8rem;
   right: 0.5rem;
+  border-radius: 2.5rem;
 }
 body main .carrusel .logo1 {
   width: 80px;
@@ -2663,12 +2676,13 @@ body footer .p-footer {
     height: auto;
   }
   body main .carrusel .logo {
-    width: 65px;
-    height: 50px;
+    width: 50px;
+    height: auto;
     background-size: cover;
     position: fixed;
     bottom: 0.9rem;
-    right: 0.5rem;
+    right: 0.9rem;
+    border-radius: 2.5rem;
   }
   body main .carrusel .logo1 {
     width: 50px;
@@ -2770,12 +2784,13 @@ body main .carrusel .img-index {
   height: auto;
 }
 body main .carrusel .logo {
-  width: 95px;
-  height: 67px;
+  width: 80px;
+  height: auto;
   background-size: cover;
   position: fixed;
-  bottom: 1rem;
+  bottom: 0.8rem;
   right: 0.5rem;
+  border-radius: 2.5rem;
 }
 body main .carrusel .logo1 {
   width: 80px;
@@ -2931,12 +2946,13 @@ body footer .p-footer {
     height: auto;
   }
   body main .carrusel .logo {
-    width: 65px;
-    height: 50px;
+    width: 50px;
+    height: auto;
     background-size: cover;
     position: fixed;
     bottom: 0.9rem;
-    right: 0.5rem;
+    right: 0.9rem;
+    border-radius: 2.5rem;
   }
   body main .carrusel .logo1 {
     width: 50px;
@@ -3302,12 +3318,13 @@ body main .carrusel .img-index {
   height: auto;
 }
 body main .carrusel .logo {
-  width: 95px;
-  height: 67px;
+  width: 80px;
+  height: auto;
   background-size: cover;
   position: fixed;
-  bottom: 1rem;
+  bottom: 0.8rem;
   right: 0.5rem;
+  border-radius: 2.5rem;
 }
 body main .carrusel .logo1 {
   width: 80px;
@@ -3463,12 +3480,13 @@ body footer .p-footer {
     height: auto;
   }
   body main .carrusel .logo {
-    width: 65px;
-    height: 50px;
+    width: 50px;
+    height: auto;
     background-size: cover;
     position: fixed;
     bottom: 0.9rem;
-    right: 0.5rem;
+    right: 0.9rem;
+    border-radius: 2.5rem;
   }
   body main .carrusel .logo1 {
     width: 50px;
@@ -4028,12 +4046,13 @@ body main .carrusel .img-index {
   height: auto;
 }
 body main .carrusel .logo {
-  width: 95px;
-  height: 67px;
+  width: 80px;
+  height: auto;
   background-size: cover;
   position: fixed;
-  bottom: 1rem;
+  bottom: 0.8rem;
   right: 0.5rem;
+  border-radius: 2.5rem;
 }
 body main .carrusel .logo1 {
   width: 80px;
@@ -4189,12 +4208,13 @@ body footer .p-footer {
     height: auto;
   }
   body main .carrusel .logo {
-    width: 65px;
-    height: 50px;
+    width: 50px;
+    height: auto;
     background-size: cover;
     position: fixed;
     bottom: 0.9rem;
-    right: 0.5rem;
+    right: 0.9rem;
+    border-radius: 2.5rem;
   }
   body main .carrusel .logo1 {
     width: 50px;
@@ -4497,12 +4517,13 @@ body main .carrusel .img-index {
   height: auto;
 }
 body main .carrusel .logo {
-  width: 95px;
-  height: 67px;
+  width: 80px;
+  height: auto;
   background-size: cover;
   position: fixed;
-  bottom: 1rem;
+  bottom: 0.8rem;
   right: 0.5rem;
+  border-radius: 2.5rem;
 }
 body main .carrusel .logo1 {
   width: 80px;
@@ -4658,12 +4679,13 @@ body footer .p-footer {
     height: auto;
   }
   body main .carrusel .logo {
-    width: 65px;
-    height: 50px;
+    width: 50px;
+    height: auto;
     background-size: cover;
     position: fixed;
     bottom: 0.9rem;
-    right: 0.5rem;
+    right: 0.9rem;
+    border-radius: 2.5rem;
   }
   body main .carrusel .logo1 {
     width: 50px;
