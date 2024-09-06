@@ -55,8 +55,10 @@ body {
       background-color: black;
       .row-cotizacion {
         display: flex;
+        justify-content: center;
+        align-items: center;
         p {
-          text-align: justify;
+          text-align: center;
           font-size: 1.3rem;
           font-family: $Playfair;
         }
@@ -64,6 +66,7 @@ body {
           font-weight: bold;
           font-size: 2.5rem;
           font-family: $Dancing;
+          text-align: center;
         }
       }
     }
@@ -75,13 +78,13 @@ body {
     padding: 4rem;
     background-color: black;
     .divVideo{
-      height: auto;
+      height: 1080;
       height: auto;
       .video{
         display: flex;
         justify-content: center;
         position: relative;
-        right: 9rem;       
+          
       }
     }   
   }
@@ -128,6 +131,10 @@ body {
     main {
       .imagenFondo-cotizacion {
         background-position: center;
+      }
+      h1{
+        position: relative;
+        right: 20rem;
       }
       .container-cotizacion {
         flex-direction: column;
@@ -178,13 +185,13 @@ body {
         background-color: black;
         .divVideo{
           height: auto;
-          height: auto;
+        
           .video{
             display: flex;
-            width: 550px;
-            height: 350;
+            width: 400px;
+            height: auto;
             position: relative;
-            right: 9.5rem;
+            right: 1rem;
           }
         }     
       }

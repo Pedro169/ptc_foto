@@ -148,7 +148,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 4rem;
-    background-color: white;
+    background-color:black;
     ul{
       list-style-type: none;
     } 
@@ -211,7 +211,7 @@ body {
         padding: 1rem;
       }
       .divisor2{
-        background-color: white;
+        background-color:black;
         width: 20rem;
         height: 1px;
       }
@@ -252,7 +252,7 @@ body {
       }
     }
     h4{
-      font-size: 1rem;
+      font-size: 0.5rem;
       font-family: $Dancing;
       text-align: center;
       margin-top: 1rem;
@@ -261,13 +261,15 @@ body {
     }
     .valor{
       position: relative;
-      left: 12rem;
+      left: 07rem;
       top: 0.5rem;
+      width: 100px;
       .p2{
         display: flex;    
         font-size: 1.5rem;
         text-align: right;
-        font-family: $Dancing;      
+        font-family: $Dancing; 
+        width: 100px;     
       }
     } 
     .tituloPagina{
@@ -282,7 +284,7 @@ body {
         .logoLetras{
           display: flex;
           justify-content: center;
-          width: 30rem;
+          width: 100%;
           height: 30rem;
           position: relative;
           bottom: -4rem;
@@ -352,10 +354,10 @@ body {
         color: white;
         padding: 1rem;
         .titulo{
-          padding: 1rem;
+          padding: 0.5rem;
         }
         .divisor{
-          background-color: white;
+          background-color: black;
           width: 20rem;
           height: 1px;
         }
@@ -387,7 +389,8 @@ body {
       justify-content: center;
       align-items: center;
       padding: 4rem;
-      background-color: white;
+      background-color: black;
+      width: 360px;
       ul{
         list-style-type: none;
       }
@@ -399,15 +402,16 @@ body {
         background-color: black;
         display: flex;
         align-items: center;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         flex-direction: column;
         color: white;
-        padding: 1rem;
+        width: 320px;
+  
         div{
           .imgPresupuesto2{
             position: relative;
             left: 0.2rem;
-            width: 20rem;
+            width: 18rem;
             height: auto;
             position: relative;
             top: 1.5rem;
@@ -431,25 +435,30 @@ body {
      justify-content: center;
       align-items: center;      
       background-color: black; 
+      width: 100%;
       .presupuesto4{
         display: flex;        
         align-items: center;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         flex-direction: column;
         color: white;
         padding: 2rem;  
         .valor1{
           position:relative;
-          left: 10rem;
+          font-size: 0.8rem;
+          left: 6rem;
           .p2{
             font-family: $Dancing;
-            font-size: 2.5rem;
+            font-size: 2rem;
           }
         }    
         .imgPresupuesto4{
-          width: 320px;
+          width: 250px;
           height: auto;
           box-shadow: 0.2px 0.2px 10px white;
+          position: relative;
+          left: 2rem;
+          
         }
         .titulo2{
           padding: 1rem;
@@ -465,8 +474,9 @@ body {
         flex-direction: column;
         justify-content: center;
          align-items: center;
-         padding: 4rem;
+         padding: 1rem;
          background-color: black; 
+         width: 280px;
          ul{
           list-style-type: none;
          }

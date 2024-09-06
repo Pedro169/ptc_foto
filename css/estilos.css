@@ -3682,7 +3682,7 @@ body .container-cotizacion3 {
   justify-content: center;
   align-items: center;
   padding: 4rem;
-  background-color: white;
+  background-color: black;
 }
 body .container-cotizacion3 ul {
   list-style-type: none;
@@ -3743,7 +3743,7 @@ body .container-cotizacion4 .presupuesto4 .titulo2 {
   padding: 1rem;
 }
 body .container-cotizacion4 .presupuesto4 .divisor2 {
-  background-color: white;
+  background-color: black;
   width: 20rem;
   height: 1px;
 }
@@ -3782,7 +3782,7 @@ body .container-cotizacion4 .container-cotizacion5 ul {
     text-shadow: 2px 2px 5px rgba(10, 0, 0, 0.925);
   }
   body h4 {
-    font-size: 1rem;
+    font-size: 0.5rem;
     font-family: "Dancing Script", cursive;
     text-align: center;
     margin-top: 1rem;
@@ -3791,14 +3791,16 @@ body .container-cotizacion4 .container-cotizacion5 ul {
   }
   body .valor {
     position: relative;
-    left: 12rem;
+    left: 7rem;
     top: 0.5rem;
+    width: 100px;
   }
   body .valor .p2 {
     display: flex;
     font-size: 1.5rem;
     text-align: right;
     font-family: "Dancing Script", cursive;
+    width: 100px;
   }
   body .tituloPagina {
     display: flex;
@@ -3814,7 +3816,7 @@ body .container-cotizacion4 .container-cotizacion5 ul {
   body .tituloPagina div .logoLetras {
     display: flex;
     justify-content: center;
-    width: 30rem;
+    width: 100%;
     height: 30rem;
     position: relative;
     bottom: -4rem;
@@ -3883,10 +3885,10 @@ body .container-cotizacion4 .container-cotizacion5 ul {
     padding: 1rem;
   }
   body .container-cotizacion2 .presupuesto1 .titulo {
-    padding: 1rem;
+    padding: 0.5rem;
   }
   body .container-cotizacion2 .presupuesto1 .divisor {
-    background-color: white;
+    background-color: black;
     width: 20rem;
     height: 1px;
   }
@@ -3914,7 +3916,8 @@ body .container-cotizacion4 .container-cotizacion5 ul {
     justify-content: center;
     align-items: center;
     padding: 4rem;
-    background-color: white;
+    background-color: black;
+    width: 360px;
   }
   body .container-cotizacion3 ul {
     list-style-type: none;
@@ -3927,15 +3930,15 @@ body .container-cotizacion4 .container-cotizacion5 ul {
     background-color: black;
     display: flex;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     flex-direction: column;
     color: white;
-    padding: 1rem;
+    width: 320px;
   }
   body .container-cotizacion3 .presupuesto2 div .imgPresupuesto2 {
     position: relative;
     left: 0.2rem;
-    width: 20rem;
+    width: 18rem;
     height: auto;
     position: relative;
     top: 1.5rem;
@@ -3956,27 +3959,31 @@ body .container-cotizacion4 .container-cotizacion5 ul {
     justify-content: center;
     align-items: center;
     background-color: black;
+    width: 100%;
   }
   body .container-cotizacion4 .presupuesto4 {
     display: flex;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     flex-direction: column;
     color: white;
     padding: 2rem;
   }
   body .container-cotizacion4 .presupuesto4 .valor1 {
     position: relative;
-    left: 10rem;
+    font-size: 0.8rem;
+    left: 6rem;
   }
   body .container-cotizacion4 .presupuesto4 .valor1 .p2 {
     font-family: "Dancing Script", cursive;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   body .container-cotizacion4 .presupuesto4 .imgPresupuesto4 {
-    width: 320px;
+    width: 250px;
     height: auto;
     box-shadow: 0.2px 0.2px 10px white;
+    position: relative;
+    left: 2rem;
   }
   body .container-cotizacion4 .presupuesto4 .titulo2 {
     padding: 1rem;
@@ -3991,8 +3998,9 @@ body .container-cotizacion4 .container-cotizacion5 ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4rem;
+    padding: 1rem;
     background-color: black;
+    width: 280px;
   }
   body .container-cotizacion4 .container-cotizacion5 ul {
     list-style-type: none;
@@ -4324,9 +4332,11 @@ body .container-cotizacion .p-cotizacion {
 }
 body .container-cotizacion .p-cotizacion .row-cotizacion {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 body .container-cotizacion .p-cotizacion .row-cotizacion p {
-  text-align: justify;
+  text-align: center;
   font-size: 1.3rem;
   font-family: "Playfair Display", serif;
 }
@@ -4334,6 +4344,7 @@ body .container-cotizacion .p-cotizacion .row-cotizacion span {
   font-weight: bold;
   font-size: 2.5rem;
   font-family: "Dancing Script", cursive;
+  text-align: center;
 }
 body .container-cotizacion2 {
   display: flex;
@@ -4343,14 +4354,13 @@ body .container-cotizacion2 {
   background-color: black;
 }
 body .container-cotizacion2 .divVideo {
-  height: auto;
+  height: 1080;
   height: auto;
 }
 body .container-cotizacion2 .divVideo .video {
   display: flex;
   justify-content: center;
   position: relative;
-  right: 9rem;
 }
 body .container-cotizacion3 {
   display: flex;
@@ -4392,6 +4402,10 @@ body .divBoton .btn-cotizar:hover {
 @media (max-width: 990px) {
   body main .imagenFondo-cotizacion {
     background-position: center;
+  }
+  body main h1 {
+    position: relative;
+    right: 20rem;
   }
   body main .container-cotizacion {
     flex-direction: column;
@@ -4439,14 +4453,13 @@ body .divBoton .btn-cotizar:hover {
   }
   body main .container-cotizacion2 .divVideo {
     height: auto;
-    height: auto;
   }
   body main .container-cotizacion2 .divVideo .video {
     display: flex;
-    width: 550px;
-    height: 350;
+    width: 400px;
+    height: auto;
     position: relative;
-    right: 9.5rem;
+    right: 1rem;
   }
   body main .divBoton {
     display: flex;
@@ -4758,8 +4771,11 @@ body .imagenFondo-presentacion .fuente2 {
   color: white;
   text-shadow: 2px 2px 5px rgba(10, 0, 0, 0.925);
 }
+body h1 {
+  font-size: 2rem;
+}
 body h4 {
-  font-size: 4rem;
+  font-size: 2rem;
   font-family: "Dancing Script", cursive;
   text-align: center;
   margin-top: 1rem;
@@ -4794,7 +4810,7 @@ body .p-presentacion .parrafo {
   padding: 1rem;
 }
 body .p-presentacion .parrafo .p-parrafo {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: "Playfair Display", serif;
 }
 body .p-presentacion .imgNovios {
@@ -4859,6 +4875,11 @@ body .p-presentacion .imgNovios {
   body main .imagenFondo-presentacion {
     background-position: center;
   }
+  body main h1 {
+    font-size: 1.5rem;
+    position: relative;
+    left: 8rem;
+  }
   body main .container-presentacion {
     flex-direction: column;
     width: 100%;
@@ -4883,23 +4904,24 @@ body .p-presentacion .imgNovios {
     align-items: center;
     margin-left: 0rem;
   }
+  body main .container-presentacion .p-presentacion .imgNovios {
+    width: 280px;
+    height: auto;
+    position: relative;
+    left: 2rem;
+  }
   body main .container-presentacion .p-presentacion .p-presentacionInter {
     display: flex;
-    width: auto;
+    width: 300px;
     padding: 1rem;
     justify-content: center;
-  }
-  body main .container-presentacion .p-presentacion .p-presentacionInter h1 {
-    font-size: 1rem;
-    position: relative;
-    left: 8rem;
   }
   body main .container-presentacion .p-presentacion .p-presentacionInter .p-parrafo {
     font-size: 1rem;
     position: relative;
     padding: 1rem;
-    left: 10rem;
-    width: 80%;
+    left: 8rem;
+    width: 100%;
   }
   body main .container-presentacion .p-presentacion .row-presentacion article div {
     display: flex;
@@ -4915,6 +4937,18 @@ body .p-presentacion .imgNovios {
   }
   body main .container-presentacion .p-presentacion .row-presentacion article div p span {
     font-size: 2rem;
+  }
+  body main .container-presentacion2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  body main .container-presentacion2 .video {
+    width: 200px;
+    height: auto;
+    position: relative;
+    right: 290px;
   }
 }
 
