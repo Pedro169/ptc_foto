@@ -73,16 +73,19 @@ body {
   .container-presentacion2{
     display: flex;
     justify-content: center;
-    align-items: center;
-    position: relative;
-    right: 4.5rem;  
+    align-items: center;     
     background-color: white;
-    .video{
-      display: flex;
-      padding: 1rem;
-      width: 1080px;
-      height: 720;
-    }
+    .divVideo2{
+      width: 1080;
+      height: auto;
+      padding: 1.5rem;
+      .video2{
+        display: flex;
+        justify-content: center;
+        position: relative;
+          
+      }
+    }  
   }
   .container-presentacion3{
     display: flex;
@@ -200,15 +203,23 @@ body {
       .container-presentacion2{
         display: flex;
         justify-content: center;
-        align-items: center;       
+        align-items: center;     
         background-color: white;
-        .video{                
-          width: 200px;
+        .divVideo2{ 
+          width: 320px;        
           height: auto;
-          position: relative; 
-          right: 290px;
-        }
+          padding: 0.5rem;
+          .video2{
+            width: 320px;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            position: relative;              
+          }
+        }  
       }
+      
     }
   }
+  
 }

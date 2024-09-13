@@ -306,7 +306,7 @@ body {
         width: 100%;
         height: auto;
         li{
-          font-size: 1.3rem;
+          font-size: 1rem;
         }
       }     
       .cotizacion {
@@ -390,8 +390,9 @@ body {
       align-items: center;
       padding: 4rem;
       background-color: black;
-      width: 360px;
+      width: 363px;
       ul{
+        font-size: 0.8rem;
         list-style-type: none;
       }
       .imagen{
@@ -470,7 +471,7 @@ body {
         }
       }
       .container-cotizacion5{
-        display: flex;
+        display: flex;        
         flex-direction: column;
         justify-content: center;
          align-items: center;

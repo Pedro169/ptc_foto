@@ -3838,7 +3838,7 @@ body .container-cotizacion4 .container-cotizacion5 ul {
     height: auto;
   }
   body .container-cotizacion ul li {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   body .container-cotizacion .cotizacion {
     display: flex;
@@ -3917,9 +3917,10 @@ body .container-cotizacion4 .container-cotizacion5 ul {
     align-items: center;
     padding: 4rem;
     background-color: black;
-    width: 360px;
+    width: 363px;
   }
   body .container-cotizacion3 ul {
+    font-size: 0.8rem;
     list-style-type: none;
   }
   body .container-cotizacion3 .imagen {
@@ -4824,15 +4825,17 @@ body .p-presentacion .imgNovios {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  right: 4.5rem;
   background-color: white;
 }
-.container-presentacion2 .video {
+.container-presentacion2 .divVideo2 {
+  width: 1080;
+  height: auto;
+  padding: 1.5rem;
+}
+.container-presentacion2 .divVideo2 .video2 {
   display: flex;
-  padding: 1rem;
-  width: 1080px;
-  height: 720;
+  justify-content: center;
+  position: relative;
 }
 
 .container-presentacion3 {
@@ -4944,11 +4947,17 @@ body .p-presentacion .imgNovios {
     align-items: center;
     background-color: white;
   }
-  body main .container-presentacion2 .video {
-    width: 200px;
+  body main .container-presentacion2 .divVideo2 {
+    width: 320px;
     height: auto;
+    padding: 0.5rem;
+  }
+  body main .container-presentacion2 .divVideo2 .video2 {
+    width: 320px;
+    height: auto;
+    display: flex;
+    justify-content: center;
     position: relative;
-    right: 290px;
   }
 }
 
