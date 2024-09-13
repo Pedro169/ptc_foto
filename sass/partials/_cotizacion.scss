@@ -1,6 +1,11 @@
 @import "./variables";
 @import "./inicio";
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
 body {
   background-color: black;
   .imagenFondo-cotizacion2{
@@ -36,7 +41,7 @@ body {
     top: 2rem;
     .p2{
       display: flex;    
-      font-size: 2.2rem;
+      font-size: 2rem;
       text-align: right;
       font-family: $Dancing;      
     }
@@ -264,13 +269,18 @@ body {
       left: 07rem;
       top: 0.5rem;
       width: 100px;
-      .p2{
-        display: flex;    
-        font-size: 1.5rem;
-        text-align: right;
-        font-family: $Dancing; 
-        width: 100px;     
-      }
+      
+      
+        .p2{
+          display: flex;    
+          font-size: 1.2rem;
+          text-align: right;
+          font-family: $Dancing; 
+          width: 100px;     
+        }
+
+    
+      
     } 
     .tituloPagina{
       display: flex;
@@ -306,7 +316,7 @@ body {
         width: 100%;
         height: auto;
         li{
-          font-size: 1rem;
+          font-size: 1.2rem;
         }
       }     
       .cotizacion {
@@ -353,6 +363,7 @@ body {
         flex-direction: column;
         color: white;
         padding: 1rem;
+        width: 347px;
         .titulo{
           padding: 0.5rem;
         }
@@ -390,9 +401,10 @@ body {
       align-items: center;
       padding: 4rem;
       background-color: black;
-      width: 363px;
+      width: auto;
+      height: auto;
       ul{
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         list-style-type: none;
       }
       .imagen{
@@ -403,10 +415,10 @@ body {
         background-color: black;
         display: flex;
         align-items: center;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         flex-direction: column;
         color: white;
-        width: 320px;
+        width: 347px;
   
         div{
           .imgPresupuesto2{
@@ -436,40 +448,48 @@ body {
      justify-content: center;
       align-items: center;      
       background-color: black; 
-      width: 100%;
-      .presupuesto4{
-        display: flex;        
-        align-items: center;
-        font-size: 1.2rem;
+      width: auto;
+      section{
+        display: flex;
         flex-direction: column;
-        color: white;
-        padding: 2rem;  
-        .valor1{
-          position:relative;
-          font-size: 0.8rem;
-          left: 6rem;
-          .p2{
-            font-family: $Dancing;
-            font-size: 2rem;
+        align-items: center;
+        justify-content: center;    
+        background-color: black;
+        .presupuesto4{
+          display: flex;        
+          align-items: center;
+          font-size: 1.2rem;
+          flex-direction: column;
+          color: white;
+          padding: 0.1rem;  
+          width: 360px;
+          .valor1{
+            position:relative;
+            font-size: 0.8rem;
+            left: 6rem;
+            .p2{
+              font-family: $Dancing;
+              font-size: 1.2rem;
+            }
+          }    
+          .imgPresupuesto4{
+            width: 250px;
+            height: auto;
+            box-shadow: 0.2px 0.2px 10px white;
+            position: relative;
+            left: 2rem;
+            
           }
-        }    
-        .imgPresupuesto4{
-          width: 250px;
-          height: auto;
-          box-shadow: 0.2px 0.2px 10px white;
-          position: relative;
-          left: 2rem;
-          
+          .titulo2{
+            padding: 1rem;
+          }
+          .divisor2{
+            background-color: white;
+            width: 20rem;
+            height: 1px;
+          }
         }
-        .titulo2{
-          padding: 1rem;
-        }
-        .divisor2{
-          background-color: white;
-          width: 20rem;
-          height: 1px;
-        }
-      }
+      }   
       .container-cotizacion5{
         display: flex;        
         flex-direction: column;
